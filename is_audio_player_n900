@@ -1,0 +1,9 @@
+output_formats=video/mp4-generic, video/quicktime, video/mp4, video/mpeg4, video/3gp, video/3gpp2, application/sdp, audio/3gpp, audio/3ga, audio/3gpp2, audio/amr, audio/x-amr, audio/mpa, audio/mpeg, audio/x-mp3, audio/x-mpg, audio/mp4, audio/m4a, audio/aac, audio/x-aac, audio/mp4a-latm, audio/wav
+playlist_format=audio/x-scpls, audio/x-mpegurl
+audio_folders=.sounds/, .videos/, Music/
+video_folders=.videos/, Video/
+icon_names=phone-nokia-n900
+folder_depth=2
+cover_art_filename=cover.jpg
+cover_art_file_type=jpeg
+cover_art_size=200
