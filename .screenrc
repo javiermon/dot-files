@@ -83,7 +83,7 @@ hardstatus alwayslastline
 #       m      magenta
 #       c      cyan
 #       w      white                                                                                              
-hardstatus string '%{= gk}%-Lw%{= KW}%30>%n%f* %t%{= gK}%+Lw%<%{= kG}%-=%D %d %M %Y %c:%s%{-}'
+hardstatus string '%{= gk}%-Lw%{= KW}%30>%n%f* %t%{= gK}%+Lw%<%{= kG}%-=(%H) %D %d %M %Y %c:%s%{-}'
 
 # An alternative hardstatus to display a bar at the bottom listing the
 # windownames and highlighting the current windowname in blue. (This is only
