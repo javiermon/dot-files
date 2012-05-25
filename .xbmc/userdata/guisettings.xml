@@ -1,0 +1,2470 @@
+<settings>
+    <mymusic>
+        <playlist>
+            <repeat>false</repeat>
+            <shuffle>false</shuffle>
+        </playlist>
+        <scanning>
+            <isscanning>false</isscanning>
+        </scanning>
+        <startwindow>10502</startwindow>
+        <songinfoinvis>true</songinfoinvis>
+        <songthumbinvis>true</songthumbinvis>
+        <defaultlibview pathversion="1"></defaultlibview>
+    </mymusic>
+    <myvideos>
+        <startwindow>10025</startwindow>
+        <stackvideos>false</stackvideos>
+        <watchmodemovies>0</watchmodemovies>
+        <watchmodetvshows>0</watchmodetvshows>
+        <watchmodemusicvideos>0</watchmodemusicvideos>
+        <flatten>false</flatten>
+        <playlist>
+            <repeat>false</repeat>
+            <shuffle>false</shuffle>
+        </playlist>
+        <extractflags>true</extractflags>
+        <extractthumb>true</extractthumb>
+        <replacelabels>true</replacelabels>
+        <selectaction>1</selectaction>
+        <treatstackasfile>true</treatstackasfile>
+    </myvideos>
+    <viewstates>
+        <musicnavartists>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </musicnavartists>
+        <musicnavalbums>
+            <viewmode>131584</viewmode>
+            <sortmethod>14</sortmethod>
+            <sortorder>1</sortorder>
+        </musicnavalbums>
+        <musicnavsongs>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </musicnavsongs>
+        <musiclastfm>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </musiclastfm>
+        <videonavactors>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </videonavactors>
+        <videonavyears>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </videonavyears>
+        <videonavgenres>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </videonavgenres>
+        <videonavtitles>
+            <viewmode>65586</viewmode>
+            <sortmethod>19</sortmethod>
+            <sortorder>2</sortorder>
+        </videonavtitles>
+        <videonavepisodes>
+            <viewmode>131584</viewmode>
+            <sortmethod>22</sortmethod>
+            <sortorder>1</sortorder>
+        </videonavepisodes>
+        <videonavseasons>
+            <viewmode>65586</viewmode>
+            <sortmethod>23</sortmethod>
+            <sortorder>1</sortorder>
+        </videonavseasons>
+        <videonavtvshows>
+            <viewmode>65586</viewmode>
+            <sortmethod>25</sortmethod>
+            <sortorder>1</sortorder>
+        </videonavtvshows>
+        <videonavmusicvideos>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </videonavmusicvideos>
+        <programs>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </programs>
+        <pictures>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </pictures>
+        <videofiles>
+            <viewmode>65586</viewmode>
+            <sortmethod>2</sortmethod>
+            <sortorder>1</sortorder>
+        </videofiles>
+        <musicfiles>
+            <viewmode>65536</viewmode>
+            <sortmethod>1</sortmethod>
+            <sortorder>1</sortorder>
+        </musicfiles>
+    </viewstates>
+    <general>
+        <systemtotaluptime>5093</systemtotaluptime>
+        <httpapibroadcastport>8278</httpapibroadcastport>
+        <httpapibroadcastlevel>0</httpapibroadcastlevel>
+        <addonautoupdate>true</addonautoupdate>
+        <addonnotifications>true</addonnotifications>
+    </general>
+    <defaultvideosettings>
+        <deinterlacemode>0</deinterlacemode>
+        <interlacemethod>1</interlacemethod>
+        <scalingmethod>1</scalingmethod>
+        <noisereduction>0.000000</noisereduction>
+        <postprocess>false</postprocess>
+        <sharpness>0.000000</sharpness>
+        <viewmode>0</viewmode>
+        <zoomamount>1.000000</zoomamount>
+        <pixelratio>1.000000</pixelratio>
+        <verticalshift>0.000000</verticalshift>
+        <volumeamplification>0.000000</volumeamplification>
+        <outputtoallspeakers>false</outputtoallspeakers>
+        <showsubtitles>true</showsubtitles>
+        <brightness>50.000000</brightness>
+        <contrast>50.000000</contrast>
+        <gamma>20.000000</gamma>
+        <audiodelay>0.000000</audiodelay>
+        <subtitledelay>0.000000</subtitledelay>
+        <autocrop>false</autocrop>
+        <nonlinstretch>false</nonlinstretch>
+    </defaultvideosettings>
+    <audio>
+        <mute>false</mute>
+        <volumelevel>0</volumelevel>
+        <premutevolumelevel>0</premutevolumelevel>
+        <dynamicrangecompression>0</dynamicrangecompression>
+    </audio>
+    <resolutions>
+        <resolution>
+            <description>Windowed</description>
+            <subtitles>463</subtitles>
+            <pixelratio>1.000000</pixelratio>
+            <refreshrate>0.000000</refreshrate>
+            <output></output>
+            <xrandrid></xrandrid>
+            <overscan>
+                <left>0</left>
+                <top>0</top>
+                <right>720</right>
+                <bottom>480</bottom>
+            </overscan>
+        </resolution>
+        <resolution>
+            <description>1920x1080 @ 60.00 - Full Screen</description>
+            <subtitles>1042</subtitles>
+            <pixelratio>1.000000</pixelratio>
+            <refreshrate>60.000000</refreshrate>
+            <output>HDMI1</output>
+            <xrandrid>0x46</xrandrid>
+            <overscan>
+                <left>0</left>
+                <top>0</top>
+                <right>1920</right>
+                <bottom>1080</bottom>
+            </overscan>
+        </resolution>
+        <resolution>
+            <description>HDMI1: 1920x1080 @ 60.00Hz</description>
+            <subtitles>1025</subtitles>
+            <pixelratio>1.000000</pixelratio>
+            <refreshrate>60.000000</refreshrate>
+            <output>HDMI1</output>
+            <xrandrid>0x46</xrandrid>
+            <overscan>
+                <left>0</left>
+                <top>0</top>
+                <right>1920</right>
+                <bottom>1080</bottom>
+            </overscan>
+        </resolution>
+        <resolution>
+            <description>HDMI1: 1920x1080 @ 50.00Hz</description>
+            <subtitles>1025</subtitles>
+            <pixelratio>1.000000</pixelratio>
+            <refreshrate>50.000000</refreshrate>
+            <output>HDMI1</output>
+            <xrandrid>0x47</xrandrid>
+            <overscan>
+                <left>0</left>
+                <top>0</top>
+                <right>1920</right>
+                <bottom>1080</bottom>
+            </overscan>
+        </resolution>
+        <resolution>
+            <description>HDMI1: 1920x1080 @ 24.00Hz</description>
+            <subtitles>1025</subtitles>
+            <pixelratio>1.000000</pixelratio>
+            <refreshrate>24.000000</refreshrate>
+            <output>HDMI1</output>
+            <xrandrid>0x48</xrandrid>
+            <overscan>
+                <left>0</left>
+                <top>0</top>
+                <right>1920</right>
+                <bottom>1080</bottom>
+            </overscan>
+        </resolution>
+        <resolution>
+            <description>HDMI1: 1600x1200 @ 60.00Hz</description>
+            <subtitles>1139</subtitles>
+            <pixelratio>1.333333</pixelratio>
+            <refreshrate>60.000000</refreshrate>
+            <output>HDMI1</output>
+            <xrandrid>0x49</xrandrid>
+            <overscan>
+                <left>0</left>
+                <top>0</top>
+                <right>1600</right>
+                <bottom>1200</bottom>
+            </overscan>
+        </resolution>
+        <resolution>
+            <description>HDMI1: 1280x1024 @ 60.02Hz</description>
+            <subtitles>972</subtitles>
+            <pixelratio>1.422222</pixelratio>
+            <refreshrate>60.019741</refreshrate>
+            <output>HDMI1</output>
+            <xrandrid>0x4a</xrandrid>
+            <overscan>
+                <left>0</left>
+                <top>0</top>
+                <right>1280</right>
+                <bottom>1024</bottom>
+            </overscan>
+        </resolution>
+        <resolution>
+            <description>HDMI1: 1360x768 @ 59.80Hz</description>
+            <subtitles>729</subtitles>
+            <pixelratio>0.999512</pixelratio>
+            <refreshrate>59.798988</refreshrate>
+            <output>HDMI1</output>
+            <xrandrid>0x4b</xrandrid>
+            <overscan>
+                <left>0</left>
+                <top>0</top>
+                <right>1366</right>
+                <bottom>768</bottom>
+            </overscan>
+        </resolution>
+        <resolution>
+            <description>HDMI1: 1024x768 @ 60.00Hz</description>
+            <subtitles>729</subtitles>
+            <pixelratio>1.333333</pixelratio>
+            <refreshrate>60.003841</refreshrate>
+            <output>HDMI1</output>
+            <xrandrid>0x4c</xrandrid>
+            <overscan>
+                <left>0</left>
+                <top>0</top>
+                <right>1024</right>
+                <bottom>768</bottom>
+            </overscan>
+        </resolution>
+        <resolution>
+            <description>HDMI1: 800x600 @ 60.32Hz</description>
+            <subtitles>569</subtitles>
+            <pixelratio>1.333333</pixelratio>
+            <refreshrate>60.316540</refreshrate>
+            <output>HDMI1</output>
+            <xrandrid>0x4d</xrandrid>
+            <overscan>
+                <left>0</left>
+                <top>0</top>
+                <right>800</right>
+                <bottom>600</bottom>
+            </overscan>
+        </resolution>
+        <resolution>
+            <description>HDMI1: 640x480 @ 60.00Hz</description>
+            <subtitles>455</subtitles>
+            <pixelratio>1.333333</pixelratio>
+            <refreshrate>60.000000</refreshrate>
+            <output>HDMI1</output>
+            <xrandrid>0x4e</xrandrid>
+            <overscan>
+                <left>0</left>
+                <top>0</top>
+                <right>640</right>
+                <bottom>480</bottom>
+            </overscan>
+        </resolution>
+    </resolutions>
+    <audiocds>
+        <autorun>false</autorun>
+        <bitrate>192</bitrate>
+        <compressionlevel>5</compressionlevel>
+        <encoder>3</encoder>
+        <quality>0</quality>
+        <recordingpath pathversion="1">select writable folder</recordingpath>
+        <trackpathformat>%A - %B/[%N. ][%A - ]%T</trackpathformat>
+        <usecddb>true</usecddb>
+    </audiocds>
+    <audiooutput>
+        <ac3passthrough>false</ac3passthrough>
+        <audiodevice>custom</audiodevice>
+        <channellayout>1</channellayout>
+        <customdevice>plughw:0,3</customdevice>
+        <custompassthrough>plughw:0,3</custompassthrough>
+        <dontnormalizelevels>false</dontnormalizelevels>
+        <dtspassthrough>false</dtspassthrough>
+        <mode>2</mode>
+        <passthroughaac>false</passthroughaac>
+        <passthroughdevice>custom</passthroughdevice>
+        <passthroughmp1>false</passthroughmp1>
+        <passthroughmp2>false</passthroughmp2>
+        <passthroughmp3>false</passthroughmp3>
+    </audiooutput>
+    <cache>
+        <harddisk>256</harddisk>
+    </cache>
+    <cacheaudio>
+        <dvdrom>256</dvdrom>
+        <internet>256</internet>
+        <lan>256</lan>
+    </cacheaudio>
+    <cachedvd>
+        <dvdrom>2048</dvdrom>
+        <lan>2048</lan>
+    </cachedvd>
+    <cacheunknown>
+        <internet>4096</internet>
+    </cacheunknown>
+    <cachevideo>
+        <dvdrom>2048</dvdrom>
+        <internet>4096</internet>
+        <lan>2048</lan>
+    </cachevideo>
+    <debug>
+        <screenshotpath pathversion="1">select writable folder</screenshotpath>
+        <showloginfo>false</showloginfo>
+    </debug>
+    <dvds>
+        <automenu>false</automenu>
+        <autorun>false</autorun>
+        <playerregion>0</playerregion>
+    </dvds>
+    <filelists>
+        <allowfiledeletion>false</allowfiledeletion>
+        <ignorethewhensorting>true</ignorethewhensorting>
+        <showaddsourcebuttons>true</showaddsourcebuttons>
+        <showextensions>true</showextensions>
+        <showhidden>false</showhidden>
+        <showparentdiritems>true</showparentdiritems>
+    </filelists>
+    <input>
+        <enablemouse>true</enablemouse>
+        <peripherals></peripherals>
+        <remoteaskeyboard>true</remoteaskeyboard>
+    </input>
+    <karaoke>
+        <autopopupselector>false</autopopupselector>
+        <charset>DEFAULT</charset>
+        <enabled>false</enabled>
+        <export></export>
+        <font>arial.ttf</font>
+        <fontcolors>0</fontcolors>
+        <fontheight>36</fontheight>
+        <importcsv></importcsv>
+    </karaoke>
+    <locale>
+        <charset>DEFAULT</charset>
+        <country>Central Europe</country>
+        <language>English (US)</language>
+        <timezone>Europe/Madrid</timezone>
+        <timezonecountry>Spain</timezonecountry>
+    </locale>
+    <lookandfeel>
+        <enablerssfeeds>true</enablerssfeeds>
+        <font>Default</font>
+        <rssedit></rssedit>
+        <skin>skin.aeon.nox</skin>
+        <skincolors>SKINDEFAULT.xml</skincolors>
+        <skintheme>SKINDEFAULT</skintheme>
+        <skinzoom>0</skinzoom>
+        <soundskin>SKINDEFAULT</soundskin>
+        <startupwindow>10000</startupwindow>
+    </lookandfeel>
+    <masterlock>
+        <lockcode>-</lockcode>
+        <maxretries>3</maxretries>
+        <startuplock>false</startuplock>
+    </masterlock>
+    <musicfiles>
+        <findremotethumbs>true</findremotethumbs>
+        <librarytrackformat></librarytrackformat>
+        <librarytrackformatright></librarytrackformatright>
+        <nowplayingtrackformat></nowplayingtrackformat>
+        <nowplayingtrackformatright></nowplayingtrackformatright>
+        <trackformat>[%N. ]%A - %T</trackformat>
+        <trackformatright>%D</trackformatright>
+        <usetags>true</usetags>
+    </musicfiles>
+    <musiclibrary>
+        <albumsscraper>metadata.albums.last.fm</albumsscraper>
+        <artistsscraper>metadata.artists.last.fm</artistsscraper>
+        <backgroundupdate>false</backgroundupdate>
+        <cleanup></cleanup>
+        <downloadinfo>true</downloadinfo>
+        <enabled>true</enabled>
+        <export></export>
+        <import></import>
+        <showcompilationartists>false</showcompilationartists>
+        <updateonstartup>true</updateonstartup>
+    </musiclibrary>
+    <musicplayer>
+        <autoplaynextitem>true</autoplaynextitem>
+        <crossfade>0</crossfade>
+        <crossfadealbumtracks>true</crossfadealbumtracks>
+        <queuebydefault>false</queuebydefault>
+        <replaygainavoidclipping>false</replaygainavoidclipping>
+        <replaygainnogainpreamp>89</replaygainnogainpreamp>
+        <replaygainpreamp>89</replaygainpreamp>
+        <replaygaintype>1</replaygaintype>
+        <visualisation></visualisation>
+    </musicplayer>
+    <network>
+        <assignment>1</assignment>
+        <bandwidth>0</bandwidth>
+        <dns>0.0.0.0</dns>
+        <dnssuffix></dnssuffix>
+        <enc>0</enc>
+        <essid>0.0.0.0</essid>
+        <gateway>0.0.0.0</gateway>
+        <httpproxypassword></httpproxypassword>
+        <httpproxyport>8080</httpproxyport>
+        <httpproxyserver></httpproxyserver>
+        <httpproxyusername></httpproxyusername>
+        <interface></interface>
+        <ipaddress>0.0.0.0</ipaddress>
+        <key>0.0.0.0</key>
+        <save></save>
+        <subnet>255.255.255.0</subnet>
+        <usehttpproxy>false</usehttpproxy>
+    </network>
+    <pictures>
+        <displayresolution>10</displayresolution>
+        <generatethumbs>true</generatethumbs>
+        <showvideos>true</showvideos>
+        <useexifrotation>true</useexifrotation>
+        <usetags>true</usetags>
+    </pictures>
+    <powermanagement>
+        <displaysoff>0</displaysoff>
+        <shutdownstate>1</shutdownstate>
+        <shutdowntime>0</shutdowntime>
+    </powermanagement>
+    <pvrmanager>
+        <enabled>false</enabled>
+    </pvrmanager>
+    <scrapers>
+        <langfallback>false</langfallback>
+        <moviesdefault>metadata.themoviedb.org</moviesdefault>
+        <musicvideosdefault>metadata.yahoomusic.com</musicvideosdefault>
+        <tvshowsdefault>metadata.tvdb.com</tvshowsdefault>
+    </scrapers>
+    <screensaver>
+        <mode>screensaver.xbmc.builtin.black</mode>
+        <preview></preview>
+        <settings></settings>
+        <time>3</time>
+        <usedimonpause>true</usedimonpause>
+        <usemusicvisinstead>true</usemusicvisinstead>
+    </screensaver>
+    <scrobbler>
+        <lastfmpass>23EA5907DDCDC8F212CA182657AC1473</lastfmpass>
+        <lastfmsubmit>true</lastfmsubmit>
+        <lastfmsubmitradio>true</lastfmsubmitradio>
+        <lastfmusername>javiermon</lastfmusername>
+        <librefmpass></librefmpass>
+        <librefmsubmit>false</librefmsubmit>
+        <librefmusername></librefmusername>
+    </scrobbler>
+    <services>
+        <airplay>false</airplay>
+        <airplaypassword></airplaypassword>
+        <devicename>XBMC</devicename>
+        <esallinterfaces>true</esallinterfaces>
+        <escontinuousdelay>25</escontinuousdelay>
+        <esenabled>true</esenabled>
+        <esinitialdelay>750</esinitialdelay>
+        <esmaxclients>20</esmaxclients>
+        <esport>9777</esport>
+        <esportrange>10</esportrange>
+        <upnprenderer>true</upnprenderer>
+        <upnpserver>true</upnpserver>
+        <useairplaypassword>false</useairplaypassword>
+        <webserver>true</webserver>
+        <webserverpassword></webserverpassword>
+        <webserverport>8080</webserverport>
+        <webserverusername></webserverusername>
+        <webskin>webinterface.default</webskin>
+        <zeroconf>false</zeroconf>
+    </services>
+    <slideshow>
+        <displayeffects>true</displayeffects>
+        <shuffle>false</shuffle>
+        <staytime>5</staytime>
+    </slideshow>
+    <smb>
+        <winsserver></winsserver>
+        <workgroup>WORKGROUP</workgroup>
+    </smb>
+    <subtitles>
+        <align>0</align>
+        <charset>DEFAULT</charset>
+        <color>1</color>
+        <custompath pathversion="1"></custompath>
+        <font>arial.ttf</font>
+        <height>28</height>
+        <overrideassfonts>false</overrideassfonts>
+        <style>1</style>
+    </subtitles>
+    <system>
+        <playlistspath pathversion="1">special://profile/playlists/</playlistspath>
+    </system>
+    <videolibrary>
+        <actorthumbs>true</actorthumbs>
+        <backgroundupdate>false</backgroundupdate>
+        <cleanup></cleanup>
+        <enabled>true</enabled>
+        <export></export>
+        <flattentvshows>1</flattentvshows>
+        <groupmoviesets>false</groupmoviesets>
+        <import></import>
+        <seasonthumbs>true</seasonthumbs>
+        <showunwatchedplots>true</showunwatchedplots>
+        <updateonstartup>true</updateonstartup>
+    </videolibrary>
+    <videoplayer>
+        <adjustrefreshrate>false</adjustrefreshrate>
+        <displayresolution>10</displayresolution>
+        <errorinaspect>0</errorinaspect>
+        <maxspeedadjust>5.000000</maxspeedadjust>
+        <pauseafterrefreshchange>0</pauseafterrefreshchange>
+        <rendermethod>0</rendermethod>
+        <resamplequality>1</resamplequality>
+        <stretch43>0</stretch43>
+        <synctype>2</synctype>
+        <teletextenabled>true</teletextenabled>
+        <usechd>true</usechd>
+        <usedisplayasclock>false</usedisplayasclock>
+        <usepbo>true</usepbo>
+        <usevaapi>true</usevaapi>
+        <usevdpau>true</usevdpau>
+        <vdpau_allow_xrandr>false</vdpau_allow_xrandr>
+        <vdpaustudiolevel>false</vdpaustudiolevel>
+        <vdpauupscalinglevel>false</vdpauupscalinglevel>
+    </videoplayer>
+    <videoscreen>
+        <guicalibration></guicalibration>
+        <haslcd>true</haslcd>
+        <resolution>0</resolution>
+        <screen>0</screen>
+        <screenmode>DESKTOP</screenmode>
+        <testpattern></testpattern>
+        <vsync>3</vsync>
+    </videoscreen>
+    <weather>
+        <addon>weather.wunderground</addon>
+        <addonsettings></addonsettings>
+        <currentlocation>1</currentlocation>
+    </weather>
+    <window>
+        <height>480</height>
+        <width>720</width>
+    </window>
+    <skinsettings>
+        <setting type="bool" name="skin.confluence.homepageShowRecentlyAdded">true</setting>
+        <setting type="bool" name="skin.confluence.ShowBackgroundVideo">false</setting>
+        <setting type="bool" name="skin.confluence.ShowBackgroundVis">false</setting>
+        <setting type="bool" name="skin.confluence.homepageMusicinfo">false</setting>
+        <setting type="bool" name="skin.confluence.homepageVideoinfo">false</setting>
+        <setting type="bool" name="skin.confluence.HomeMenuNoMoviesButton">true</setting>
+        <setting type="bool" name="skin.confluence.HomeMenuNoTVShowsButton">true</setting>
+        <setting type="bool" name="skin.confluence.HomeMenuNoWeatherButton">false</setting>
+        <setting type="bool" name="skin.confluence.HomeMenuNoPicturesButton">false</setting>
+        <setting type="bool" name="skin.confluence.HomeMenuNoVideosButton">false</setting>
+        <setting type="bool" name="skin.confluence.HomeMenuNoMusicButton">false</setting>
+        <setting type="bool" name="skin.confluence.HomeMenuNoProgramsButton">false</setting>
+        <setting type="bool" name="skin.confluence.homepageWeatherinfo">false</setting>
+        <setting type="bool" name="skin.confluence.Use_Startup_Playlist">false</setting>
+        <setting type="bool" name="skin.confluence.HideBackGroundFanart">false</setting>
+        <setting type="bool" name="skin.confluence.HomeVideostoFiles">false</setting>
+        <setting type="bool" name="skin.confluence.TVShowsUsePosters">false</setting>
+        <setting type="bool" name="skin.confluence.HideFilenameFlagging">false</setting>
+        <setting type="bool" name="skin.confluence.View508HideInfo">false</setting>
+        <setting type="bool" name="skin.confluence.AutoScroll">true</setting>
+        <setting type="bool" name="skin.confluence.ActivateTvTunes">false</setting>
+        <setting type="bool" name="skin.confluence.ShowWeatherFanart">false</setting>
+        <setting type="bool" name="skin.confluence.WeatherScript_Enable">false</setting>
+        <setting type="bool" name="skin.confluence.View509HideInfo">false</setting>
+        <setting type="bool" name="skin.confluence.Show_SlideShow_Paused">false</setting>
+        <setting type="bool" name="skin.confluence.WindowedTrailer">false</setting>
+        <setting type="bool" name="skin.aeon.nox.homepageWeatherinfo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.homepageMusicinfo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.smallmusichome">false</setting>
+        <setting type="bool" name="skin.aeon.nox.homepageVideoinfo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.homepageHideRecentlyAdded">true</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeSystemInfo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeRandomPoster">true</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeLatestPoster">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeLatestMovies">true</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeRandomMovies">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuNoVideosButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMusicPlaylist1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMusicPlaylist2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMusicPlaylist3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MusicSubFav1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MusicSubFav2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MusicSubFav3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuNoMusicButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuNoSettingsButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.ProgramsSub1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.ProgramsSub2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.ProgramsSub3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.ProgramsSub4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.ProgramsSub5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.ProgramsSub6">false</setting>
+        <setting type="bool" name="skin.aeon.nox.ProgramsSubFav1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.ProgramsSubFav2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.ProgramsSubFav3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuNoMovieButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MoviesSub1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MoviesSub10">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMoviePlaylist1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMoviePlaylist2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMoviePlaylist3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MoviesSubFav1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MoviesSubFav2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MoviesSubFav3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeTVPlaylist1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeTVPlaylist2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeTVPlaylist3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.TVShowsSubFav1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuNoTVShowButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuNoShutdownButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuNoWeatherButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubPL1_1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubPL1_2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubPL1_3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubPL1_4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubPL1_5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubPL2_1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubPL2_2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubPL2_3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubPL2_4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubPL2_5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubPL3_1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubPL3_2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubPL3_3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubPL3_4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubPL3_5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav1_1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav1_2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav1_3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav1_4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav1_5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav2_1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav2_2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav2_3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav2_4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav2_5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav3_1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav3_2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav3_3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav3_4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav3_5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav4_1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav4_2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav4_3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav4_4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav4_5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav5_1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav5_2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav5_3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav5_4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav5_5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav6_1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav6_2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav6_3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav6_4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CustomSubFav6_5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuNoPicturesButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuNoTVGuideButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuNoFeaturedButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuVideoPlaylist1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuVideoPlaylist2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuVideoPlaylist3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuFav1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuFav2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuFav3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuFav4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuFav5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuFav6">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuNoProgramsButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuNoAddonsButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuNoFavouritesButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuNoDiscButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMenuNoComicsButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.vinylart">true</setting>
+        <setting type="bool" name="skin.aeon.nox.blurayart">false</setting>
+        <setting type="bool" name="skin.aeon.nox.animatedbghome">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeMoviesRecentAddedFanart">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeSeriesRecentAddedFanart">false</setting>
+        <setting type="bool" name="skin.aeon.nox.musicfanarthome">true</setting>
+        <setting type="bool" name="skin.aeon.nox.effect_bg_home">false</setting>
+        <setting type="bool" name="skin.aeon.nox.ShowBackgroundVideo">true</setting>
+        <setting type="bool" name="skin.aeon.nox.ShowBackgroundVis">true</setting>
+        <setting type="bool" name="skin.aeon.nox.lowermainmenu">true</setting>
+        <setting type="bool" name="skin.aeon.nox.totalshomehigh">false</setting>
+        <setting type="bool" name="skin.aeon.nox.DisableLibraryStats">false</setting>
+        <setting type="bool" name="skin.aeon.nox.aurahome">false</setting>
+        <setting type="bool" name="skin.aeon.nox.timehomehigh">false</setting>
+        <setting type="bool" name="skin.aeon.nox.DisableTimePanel">false</setting>
+        <setting type="bool" name="skin.aeon.nox.rsshomelow">false</setting>
+        <setting type="bool" name="skin.aeon.nox.DisableRSS">false</setting>
+        <setting type="bool" name="skin.aeon.nox.VideosSub1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.VideosSub2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.VideosSub3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.VideosSub4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.VideosSub5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.VideosSub6">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MusicSub1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MusicSub2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MusicSub3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MusicSub4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MusicSub5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MusicSub6">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MusicSub7">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MusicSub8">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MusicSub9">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MusicSub10">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MusicSub11">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MusicSub12">false</setting>
+        <setting type="bool" name="skin.aeon.nox.SystemSub1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.SystemSub2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.SystemSub3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.SystemSub4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.SystemSub5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MoviesSub2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MoviesSub3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MoviesSub4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MoviesSub5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MoviesSub6">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MoviesSub7">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MoviesSub8">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MoviesSub9">false</setting>
+        <setting type="bool" name="skin.aeon.nox.TVShowsSub1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.TVShowsSub3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.TVShowsSub4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.TVShowsSub5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.TVShowsSub6">false</setting>
+        <setting type="bool" name="skin.aeon.nox.ShutdownSub1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.ShutdownSub2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.ShutdownSub4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.ShutdownSub5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.ShutdownSub6">false</setting>
+        <setting type="bool" name="skin.aeon.nox.ShutdownSub7">false</setting>
+        <setting type="bool" name="skin.aeon.nox.WeatherSub1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.WeatherSub2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.WeatherSub3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.WeatherSub4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.WeatherSub5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.WeatherSub6">false</setting>
+        <setting type="bool" name="skin.aeon.nox.glasshome">false</setting>
+        <setting type="bool" name="skin.aeon.nox.classichome">false</setting>
+        <setting type="bool" name="skin.aeon.nox.biggergap">false</setting>
+        <setting type="bool" name="skin.aeon.nox.ShowWeatherFanart">true</setting>
+        <setting type="bool" name="skin.aeon.nox.lowerweatherwidget">false</setting>
+        <setting type="bool" name="skin.aeon.nox.PdaWeatherIcons">false</setting>
+        <setting type="bool" name="skin.aeon.nox.homepageWeatheranimated">false</setting>
+        <setting type="bool" name="skin.aeon.nox.disablecdart">false</setting>
+        <setting type="bool" name="skin.aeon.nox.NowPlayingFolderJPG">false</setting>
+        <setting type="bool" name="skin.aeon.nox.itemsplaylist">true</setting>
+        <setting type="bool" name="skin.aeon.nox.tenitemsplaylist">true</setting>
+        <setting type="bool" name="skin.aeon.nox.smallerdialogs">true</setting>
+        <setting type="bool" name="skin.aeon.nox.breadcrumb">false</setting>
+        <setting type="bool" name="skin.aeon.nox.globaltime">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Show_Info_Paused">false</setting>
+        <setting type="bool" name="skin.aeon.nox.AlaskaPausedLabel">false</setting>
+        <setting type="bool" name="skin.aeon.nox.nostudioratingflags">false</setting>
+        <setting type="bool" name="skin.aeon.nox.sourceflags">true</setting>
+        <setting type="bool" name="skin.aeon.nox.DisableVideoThumb">false</setting>
+        <setting type="bool" name="skin.aeon.nox.PreferRemaining">false</setting>
+        <setting type="bool" name="skin.aeon.nox.kioskmode">false</setting>
+        <setting type="bool" name="skin.aeon.nox.effect_bg">false</setting>
+        <setting type="bool" name="skin.aeon.nox.smallmusicwall">false</setting>
+        <setting type="bool" name="skin.aeon.nox.WallMusicVertical">false</setting>
+        <setting type="bool" name="skin.aeon.nox.showcasewrap">true</setting>
+        <setting type="bool" name="skin.aeon.nox.AltNewOverlay">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HideToolTip">false</setting>
+        <setting type="bool" name="skin.aeon.nox.hideoptions">false</setting>
+        <setting type="bool" name="skin.aeon.nox.animatedbg">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CurtainBackdropMovies">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CurtainBackdropTV">false</setting>
+        <setting type="bool" name="skin.aeon.nox.CurtainBackdrop">false</setting>
+        <setting type="bool" name="skin.aeon.nox.posterslide">false</setting>
+        <setting type="bool" name="skin.aeon.nox.darkinfopane">false</setting>
+        <setting type="bool" name="skin.aeon.nox.showcaseinfoontv">false</setting>
+        <setting type="bool" name="skin.aeon.nox.landscapelogo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.listpanelthin">false</setting>
+        <setting type="bool" name="skin.aeon.nox.preferplot">true</setting>
+        <setting type="bool" name="skin.aeon.nox.AutoScroll">true</setting>
+        <setting type="bool" name="skin.aeon.nox.bannerinfolist">false</setting>
+        <setting type="bool" name="skin.aeon.nox.TVShowsUseBanners">false</setting>
+        <setting type="bool" name="skin.aeon.nox.slimlist">false</setting>
+        <setting type="bool" name="skin.aeon.nox.roundedcovers">false</setting>
+        <setting type="bool" name="skin.aeon.nox.WallMoviesVertical">false</setting>
+        <setting type="bool" name="skin.aeon.nox.noflowalbum">false</setting>
+        <setting type="bool" name="skin.aeon.nox.InfoWallSquare">false</setting>
+        <setting type="bool" name="skin.aeon.nox.usecasesinfowall">false</setting>
+        <setting type="bool" name="skin.aeon.nox.TVInfoWallLandscape">false</setting>
+        <setting type="bool" name="skin.aeon.nox.TVInfoWallBanner">false</setting>
+        <setting type="bool" name="skin.aeon.nox.TVInfoWallLogo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.TVShowsUsePoster">false</setting>
+        <setting type="bool" name="skin.aeon.nox.useclearcasesinfowall">true</setting>
+        <setting type="bool" name="skin.aeon.nox.watchedoverlay">true</setting>
+        <setting type="bool" name="skin.aeon.nox.newstatus">true</setting>
+        <setting type="bool" name="skin.aeon.nox.InfoWallTagLine">false</setting>
+        <setting type="bool" name="skin.aeon.nox.pictures">true</setting>
+        <setting type="bool" name="skin.aeon.nox.comics">false</setting>
+        <setting type="bool" name="skin.aeon.nox.wallgenre">true</setting>
+        <setting type="bool" name="skin.aeon.nox.wallgenretv">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HideListFlags">false</setting>
+        <setting type="bool" name="skin.aeon.nox.customstartupfocus">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeRandomTV">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeRandomMusic">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeRandomAddons">true</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeRandomAlbums">true</setting>
+        <setting type="bool" name="skin.aeon.nox.MusicLibraryFanart">false</setting>
+        <setting type="bool" name="skin.aeon.nox.musicextrafanart">false</setting>
+        <setting type="bool" name="skin.aeon.nox.1sec">false</setting>
+        <setting type="bool" name="skin.aeon.nox.2sec">false</setting>
+        <setting type="bool" name="skin.aeon.nox.3sec">false</setting>
+        <setting type="bool" name="skin.aeon.nox.4sec">false</setting>
+        <setting type="bool" name="skin.aeon.nox.5sec">false</setting>
+        <setting type="bool" name="skin.aeon.nox.infopaneautomusic">false</setting>
+        <setting type="bool" name="skin.aeon.nox.infopanelmusic">false</setting>
+        <setting type="bool" name="skin.aeon.nox.infopanellauncher">true</setting>
+        <setting type="bool" name="skin.aeon.nox.lightinfopanel">false</setting>
+        <setting type="bool" name="skin.aeon.nox.cdartfliplist">false</setting>
+        <setting type="bool" name="skin.aeon.nox.cdartlowlist">false</setting>
+        <setting type="bool" name="skin.aeon.nox.lowlist">true</setting>
+        <setting type="bool" name="skin.aeon.nox.noflowalbumdvd">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MusicGenreOff">false</setting>
+        <setting type="bool" name="skin.aeon.nox.DisableBigFanVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.DisableInfoWallVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.DisableWallVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.DisableBannerWallVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.DisableThumbnailVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.DisableBannersVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.DisableLandscapeVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.DisableShowCaseVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.DisableDVDCaseVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.DisablePostersVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.DisableCarouselVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.DisableShiftVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.notrailerlabel">false</setting>
+        <setting type="bool" name="skin.aeon.nox.fourthumbs">false</setting>
+        <setting type="bool" name="skin.aeon.nox.fourthumbs503">false</setting>
+        <setting type="bool" name="skin.aeon.nox.fourthumbs504">false</setting>
+        <setting type="bool" name="skin.aeon.nox.posterinfopane">false</setting>
+        <setting type="bool" name="skin.aeon.nox.posterinfopane503">true</setting>
+        <setting type="bool" name="skin.aeon.nox.posterinfopane504">false</setting>
+        <setting type="bool" name="skin.aeon.nox.extrathumbs">false</setting>
+        <setting type="bool" name="skin.aeon.nox.extrathumbs503">false</setting>
+        <setting type="bool" name="skin.aeon.nox.extrathumbs504">false</setting>
+        <setting type="bool" name="skin.aeon.nox.tvposterinfopane">false</setting>
+        <setting type="bool" name="skin.aeon.nox.tvthumbsinfopane">true</setting>
+        <setting type="bool" name="skin.aeon.nox.DisableStripshowVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.StripshowWS">false</setting>
+        <setting type="bool" name="skin.aeon.nox.DisableInfoListVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.DisableLowListVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.DisablePanelVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.DisableEpisodeVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.smallmoviewall">false</setting>
+        <setting type="bool" name="skin.aeon.nox.usecases">true</setting>
+        <setting type="bool" name="skin.aeon.nox.posterwrap">false</setting>
+        <setting type="bool" name="skin.aeon.nox.VideoLibraryFanart">false</setting>
+        <setting type="bool" name="skin.aeon.nox.extrafanartseasons">true</setting>
+        <setting type="bool" name="skin.aeon.nox.extrafanartepisodes">true</setting>
+        <setting type="bool" name="skin.aeon.nox.extrafanartmovies">false</setting>
+        <setting type="bool" name="skin.aeon.nox.extrafanartseries">true</setting>
+        <setting type="bool" name="skin.aeon.nox.bigfanlogo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.infopaneauto">false</setting>
+        <setting type="bool" name="skin.aeon.nox.infopaneautoep">false</setting>
+        <setting type="bool" name="skin.aeon.nox.infopaneautotv">false</setting>
+        <setting type="bool" name="skin.aeon.nox.InfoPopUpAuto">false</setting>
+        <setting type="bool" name="skin.aeon.nox.InfoPopUpAutoTV">false</setting>
+        <setting type="bool" name="skin.aeon.nox.InfoPopUpAutoEpisode">false</setting>
+        <setting type="bool" name="skin.aeon.nox.showcaseinfoon">true</setting>
+        <setting type="bool" name="skin.aeon.nox.showcaseinfoonep">false</setting>
+        <setting type="bool" name="skin.aeon.nox.fanartinfopane">true</setting>
+        <setting type="bool" name="skin.aeon.nox.fanartinfopane503">false</setting>
+        <setting type="bool" name="skin.aeon.nox.fanartinfopane504">true</setting>
+        <setting type="bool" name="skin.aeon.nox.infopaneltagline">false</setting>
+        <setting type="bool" name="skin.aeon.nox.LandscapeThumb">false</setting>
+        <setting type="bool" name="skin.aeon.nox.TVLandscapeThumb">true</setting>
+        <setting type="bool" name="skin.aeon.nox.NextAiredInfo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.noflow">false</setting>
+        <setting type="bool" name="skin.aeon.nox.noflowdvd">false</setting>
+        <setting type="bool" name="skin.aeon.nox.InfoPopUpEpisode">false</setting>
+        <setting type="bool" name="skin.aeon.nox.InfoPopUp">false</setting>
+        <setting type="bool" name="skin.aeon.nox.InfoPopUpNoExtrathumbs">false</setting>
+        <setting type="bool" name="skin.aeon.nox.InfoPopUpTV">false</setting>
+        <setting type="bool" name="skin.aeon.nox.StripshowFanart">false</setting>
+        <setting type="bool" name="skin.aeon.nox.bigtrailerbutton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.useclearcasesmoviewall">false</setting>
+        <setting type="bool" name="skin.aeon.nox.noflowtv">false</setting>
+        <setting type="bool" name="skin.aeon.nox.disableepno">false</setting>
+        <setting type="bool" name="skin.aeon.nox.logowatchcount">false</setting>
+        <setting type="bool" name="skin.aeon.nox.noflowdvdtv">false</setting>
+        <setting type="bool" name="skin.aeon.nox.highlist">true</setting>
+        <setting type="bool" name="skin.aeon.nox.LowListPlotOnly">false</setting>
+        <setting type="bool" name="skin.aeon.nox.usecaseslowlist">false</setting>
+        <setting type="bool" name="skin.aeon.nox.carouselflow">false</setting>
+        <setting type="bool" name="skin.aeon.nox.infowallflags">false</setting>
+        <setting type="bool" name="skin.aeon.nox.altoverlayinfowall">false</setting>
+        <setting type="bool" name="skin.aeon.nox.BannerPlexVertical">false</setting>
+        <setting type="bool" name="skin.aeon.nox.BannerwallVertical">true</setting>
+        <setting type="bool" name="skin.aeon.nox.EpisodeViewIcon">false</setting>
+        <setting type="bool" name="skin.aeon.nox.tv_theme">false</setting>
+        <setting type="bool" name="skin.aeon.nox.TVShowsUsePosters">true</setting>
+        <setting type="bool" name="skin.aeon.nox.fstrailer">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Use_Startup_Playlist">false</setting>
+        <setting type="bool" name="skin.aeon.nox.FullScreenFanart">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Lockhomemenulow">false</setting>
+        <setting type="bool" name="skin.aeon.nox.lockmainmenu">false</setting>
+        <setting type="bool" name="skin.aeon.nox.lightnextairedpanel">false</setting>
+        <setting type="bool" name="skin.aeon.nox.darknextaired">false</setting>
+        <setting type="bool" name="skin.aeon.nox.infopaneautolauncher">false</setting>
+        <setting type="bool" name="skin.aeon.nox.cdartmusicviz">false</setting>
+        <setting type="bool" name="skin.aeon.nox.nofanartmusicviz">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Viz-CDWall">false</setting>
+        <setting type="bool" name="skin.aeon.nox.animation_bg">false</setting>
+        <setting type="bool" name="skin.aeon.nox.musicfanartslideshow">false</setting>
+        <setting type="bool" name="skin.aeon.nox.videofanartslideshow">false</setting>
+        <setting type="bool" name="skin.aeon.nox.showtimeonviz">true</setting>
+        <setting type="bool" name="skin.aeon.nox.CDArtinVis">true</setting>
+        <setting type="bool" name="skin.aeon.nox.ThumbOrSlide">false</setting>
+        <setting type="bool" name="skin.aeon.nox.shutdownwarning">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeInProgressPoster">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeInProgressTVPoster">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeInProgress">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeWatchList">false</setting>
+        <setting type="bool" name="skin.aeon.nox.MoreFullscreenInfo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.TVShowsSubFav2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.TVShowsSubFav3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.TVShowsSub7">false</setting>
+        <setting type="bool" name="skin.aeon.nox.RemoveVideoPlayerControls">false</setting>
+        <setting type="bool" name="skin.aeon.nox.lightweatherpanel">false</setting>
+        <setting type="bool" name="skin.aeon.nox.AnimatedWeatherIcons">false</setting>
+        <setting type="bool" name="skin.aeon.nox.kiosk">false</setting>
+        <setting type="bool" name="skin.aeon.nox.allowscroll">false</setting>
+        <setting type="bool" name="skin.aeon.nox.osdbigtop">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeLatestTV">true</setting>
+        <setting type="bool" name="skin.aeon.nox.bannerwalldark">true</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeLatestMusic">false</setting>
+        <setting type="bool" name="skin.aeon.nox.HomeLatestAlbums">false</setting>
+        <setting type="bool" name="skin.aeon.nox.RemovePlayerControls">false</setting>
+        <setting type="bool" name="skin.aeon.nox.albumlevelfanart">true</setting>
+        <setting type="bool" name="skin.aeon.nox.DisableArtistslideshow">false</setting>
+        <setting type="bool" name="skin.aeon.nox.ThumbsFavorites">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.firstrun">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.homecdwall">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.effect_bg">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ExtendedWeatherInfo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.nohomepageMusicinfo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.homepageVideoinfo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.lowermainmenu">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomHomeItem1.Enable">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomHomeItem2.Enable">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomHomeItem3.Enable">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomHomeItem4.Enable">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomHomeItem5.Enable">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomHomeItem6.Enable">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomHomeItem7.Enable">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomHomeItem8.Enable">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomHomeItem9.Enable">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.highnavhelp">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.mainmenufixedlist">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.submenufixedlist">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.HomeMenuNoVideosButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.HomeMenuNoMusicButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.HomeMenuNoSettingsButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.HomeMenuNoMovieButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MoviesSub1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MoviesSub10">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.HomeMenuNoTVShowButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.HomeMenuNoShutdownButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.HomeMenuNoPicturesButton">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.HomeMenuNoMusicVideosButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.HomeMenuNoTVGuideButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.HomeMenuNoFeaturedButton">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.HomeMenuNoProgramsButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.HomeMenuNoFullscreenButton">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.HomeMenuNoAddonsButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.HomeMenuNoFavouritesButton">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.HomeMenuNoDiscButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.HomeMenuNoWeatherButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.HomeMenuNoComicsButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.randomcolor">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.animatedbghome">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.musicfanarthome">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ShowBackgroundVideo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ShowBackgroundVis">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.Glowbar_Home">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.totalshomehigh">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.timehomehigh">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.rsshomelow">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.colortexthome">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.colordialogs">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.colordialogshome">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.AutoScroll">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.glasshome">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.DisableNavHelp">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ExtendedGlowMode_Home">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.DisableLibraryStats">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.shorterhomebars">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.DisableTimePanel">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.smallermainmenu">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ActorBirthdayRSS">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.DisableRSS">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.alternativerss">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.rotatenowplayingpanel">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.VideosSub1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.VideosSub2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.VideosSub3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.VideosSub4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.VideosSub5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.VideosSub6">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomMusicSub1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomMusicSub2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomMusicSub3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomMusicSub4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomMusicSub5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomMusicSub6">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomMusicSub7">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomMusicSub8">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MusicSub1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MusicSub2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MusicSub3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MusicSub4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MusicSub5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MusicSub6">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MusicSub7">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MusicSub8">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MusicSub9">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MusicSub10">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MusicSub11">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MusicSub12">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.SystemSub1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.SystemSub2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.SystemSub3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.SystemSub4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.SystemSub5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ProgramsSub1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ProgramsSub2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ProgramsSub3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ProgramsSub4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ProgramsSub5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ProgramsSub6">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ProgramsSub7">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ProgramsSub8">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MoviesSub2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MoviesSub4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MoviesSub3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MoviesSub5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MoviesSub6">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MoviesSub7">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MoviesSub8">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MoviesSub9">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MovieSub1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MovieSub2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MovieSub3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MovieSub4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MovieSub5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.SettingsSub1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.SettingsSub2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.SettingsSub3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.SettingsSub4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.SettingsSub5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.TVShowSub1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.TVShowSub2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.TVShowSub3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.TVShowSub4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.TVShowSub5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.TVShowsSub1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.TVShowsSub3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.TVShowsSub4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.TVShowsSub5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.TVShowsSub6">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.TVShowsSub7">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ShutdownSub1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ShutdownSub8">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ShutdownSub2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ShutdownSub4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ShutdownSub5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ShutdownSub6">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ShutdownSub7">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.classichome">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.biggergap">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.rotationtimer">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.nowplayingpanel">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.disablecdart">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.vinylart">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.blurayart">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.NowPlayingFolderJPG">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.colortext">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.itemsplaylist">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.fiveitemsplaylist">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.homeartistslideshow">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.activatepanelrotation">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.smallerdialogs">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.DisableGlowbar">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.Show_Info_Paused">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.PreferRemaining">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.AlaskaPausedLabel">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.DisableVideoThumb">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.breadcrumbslabel">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.musicfanartslideshow">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.showcasewrap">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.showcaseinfoon">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.showcaseinfoontv">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.fanartinfopane">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.posterinfopane503">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.fanartinfopane504">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.nohighlist">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.wallgenre">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.unwatchedicon">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.newstatus">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.watchedoverlay">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.preferplot">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.usecases">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.useclearcasesinfowall">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.infopanellauncher">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MoreFullscreenInfo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.lowlist">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.wallgenretv">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.altbreadcrumbstexture">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ExtendedGlowMode">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.1sec">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.GlobalNowPlaying">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.altoverlayinfowall">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.customstartupfocus">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.randomize">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.animatedbg">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ClassicTopBar">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.disabletopbar">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.GlobalRSS">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.breadcrumbsweather">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.Use_Startup_Playlist">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.WallVertical">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.hideoptions">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.addonwallaltbackground">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.smallshiftview">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.landscapelogo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.slimlist">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.roundedcovers">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.TVWallBanner">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.titlewall">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.WallMusicVertical">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.TVShowsUseBanners">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.TVShowsUsePoster">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.noflowalbum">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.usecasesinfowall">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.TVInfoWallLandscape">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.TVInfoWallBanner">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.TVInfoWallLogo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.InfoWallSquare">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.movielogosfloor">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.tvshowlogosfloor">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.artistslogosfloor">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.tvshowbannersfloor">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.InfoWallTagLine">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.pictures">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.comics">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.SwitchTriPanel">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.tripanelbiglist">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.listpanelthin">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.NextAiredInfo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.LowListPlotOnly">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.usecaseslowlist">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.lowlistbanner">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.kioskmode">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.fstrailer">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.DisableShowCaseVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.DisableDVDCaseVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.DisableLandscapeVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.DisableLowListVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.DisableWallVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.DisablePostersVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.DisableBannersVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.DisableInfoWallVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.DisableBigFanVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.DisableEpisodeVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.DisableTriPanelVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.DisableShiftVL">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub1_1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub1_2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub1_3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub1_4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub1_5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub2_1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub2_2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub2_3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub2_4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub2_5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub3_1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub3_2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub3_3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub3_4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub3_5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub4_1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub4_2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub4_3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub4_4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub4_5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub5_1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub5_2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub5_3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub5_4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub5_5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub6_1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub6_2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub6_3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub6_4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub6_5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub7_1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub7_2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub7_3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub7_4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub7_5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub8_1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub8_2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub8_3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub8_4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub8_5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub9_1">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub9_2">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub9_3">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub9_4">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CustomSub9_5">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.HomeMenuNoLiveTVButton">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.CDArtinVis">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ThumbOrSlide">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.DisablePanelWidgetVis">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.RemovePlayerControls">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.showtimeonviz">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.animation_bg">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.nofanartmusicviz">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.Viz-CDWall">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.videofanartslideshow">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.DisableArtistslideshow">true</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.RemoveVideoPlayerControls">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.darkinfopane">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.NoMusicLibraryFanart">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.musicextrafanart">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.2sec">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.3sec">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.4sec">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.5sec">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.infopaneautomusic">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.infopanelmusic">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.cdartfliplist">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.albumcdartfliplist">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.cdartlowlist">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.noflowalbumdvd">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.MusicGenreOff">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.episodebanner">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.episodelogo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.EpisodeMoviePoster">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.disableepisodeposter">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.EpisodeViewIcon">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.vispanelrotate">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.BannerPlexVertical">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.posterwrap">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.NoVideoLibraryFanart">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.NoVideoLibraryFanartTVShows">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.SeasonFanart">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.extrafanartmovies">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.extrafanartseries">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.extrafanartseasons">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.extrafanartepisodes">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.bigfanclearart">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.bigfanlandscape">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.bigfanlogo">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.infopaneauto">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.infopaneautoep">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.infopaneautotv">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.showcaseinfoonep">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.tvposterinfopane">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.tvthumbsinfopane">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.fourthumbs">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.fourthumbs503">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.fourthumbs504">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.fanartinfopane503">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.LandscapeThumb">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.TVLandscapeThumb">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.posterinfopane">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.posterinfopane504">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.extrathumbs">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.extrathumbs503">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.extrathumbs504">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.noflow">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.noflowtv">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.noflowdvd">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.noflowdvdtv">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.tripanelbanner">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.SeasonLandscape">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.disableepno">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.viewtypeselect">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.infopaneautolauncher">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.StripshowWS">false</setting>
+        <setting type="bool" name="skin.aeon.nox.Nox.ShowMusicInformation">true</setting>
+        <setting type="bool" name="skin.neon.homepageHideRecentlyAdded">false</setting>
+        <setting type="bool" name="skin.neon.HomepageWeatherWidget">false</setting>
+        <setting type="bool" name="skin.neon.random_items">false</setting>
+        <setting type="bool" name="skin.neon.animation_bg">false</setting>
+        <setting type="bool" name="skin.neon.ShowBackgroundVideo">false</setting>
+        <setting type="bool" name="skin.neon.ShowMusicVis">false</setting>
+        <setting type="bool" name="skin.neon.horizontal_bottom_align">false</setting>
+        <setting type="bool" name="skin.neon.HomeMenuNoMusicButton">false</setting>
+        <setting type="bool" name="skin.neon.HomeMenuNoVideosButton">false</setting>
+        <setting type="bool" name="skin.neon.HomeMenuNoMoviesButton">false</setting>
+        <setting type="bool" name="skin.neon.HomeMenuNoHDMoviesButton">false</setting>
+        <setting type="bool" name="skin.neon.HomeMenuNoTVShowsButton">false</setting>
+        <setting type="bool" name="skin.neon.HomeNoMenuLiveTV">false</setting>
+        <setting type="bool" name="skin.neon.HomeMenuNoTVGuide">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom6">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom6_Play">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom7">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom7_Play">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom8">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom8_Play">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom9">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom9_Play">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom10">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom10_Play">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom1">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom2">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom3">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom4">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom5">false</setting>
+        <setting type="bool" name="skin.neon.HomeMenuNoPicturesButton">false</setting>
+        <setting type="bool" name="skin.neon.HomeMenuNoScriptsButton">false</setting>
+        <setting type="bool" name="skin.neon.HomeMenuNofavouritesButton">false</setting>
+        <setting type="bool" name="skin.neon.HomeMenuNoWeatherButton">false</setting>
+        <setting type="bool" name="skin.neon.conditions_weather_backdrop">false</setting>
+        <setting type="bool" name="skin.neon.HomeMenuNoSettingsButton">false</setting>
+        <setting type="bool" name="skin.neon.signout">false</setting>
+        <setting type="bool" name="skin.neon.HomeMenuNoShutdownButton">false</setting>
+        <setting type="bool" name="skin.neon.HomeMenuNoPlayDVDButton">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom11">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom12">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom13">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom14">false</setting>
+        <setting type="bool" name="skin.neon.HomeScriptButton1">false</setting>
+        <setting type="bool" name="skin.neon.HomeScriptButton2">false</setting>
+        <setting type="bool" name="skin.neon.HomeScriptButton3">false</setting>
+        <setting type="bool" name="skin.neon.HomeScriptButton4">false</setting>
+        <setting type="bool" name="skin.neon.HomeScriptButton5">false</setting>
+        <setting type="bool" name="skin.neon.HomeScriptButton6">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom15">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom16">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom17">false</setting>
+        <setting type="bool" name="skin.neon.Menu_Custom18">false</setting>
+        <setting type="bool" name="skin.neon.LibraryUpdated">false</setting>
+        <setting type="bool" name="skin.neon.no_global_clock">false</setting>
+        <setting type="bool" name="skin.neon.no_weather_info">false</setting>
+        <setting type="bool" name="skin.neon.global_bottomline">false</setting>
+        <setting type="bool" name="skin.neon.zune_music">false</setting>
+        <setting type="bool" name="skin.neon.debuggrid">false</setting>
+        <setting type="bool" name="skin.neon.autoscroll">false</setting>
+        <setting type="bool" name="skin.neon.3dmusic_Fanart">false</setting>
+        <setting type="bool" name="skin.neon.PosterPlus">false</setting>
+        <setting type="bool" name="skin.neon.Poster_Fanart">false</setting>
+        <setting type="bool" name="skin.neon.ShowWeatherFanart">false</setting>
+        <setting type="bool" name="skin.quartz.MoviesShelf_Image">false</setting>
+        <setting type="bool" name="skin.quartz.TVShelf_Image">false</setting>
+        <setting type="bool" name="skin.quartz.MusicShelf_Image">false</setting>
+        <setting type="bool" name="skin.quartz.PicturesShelf_Custom">false</setting>
+        <setting type="bool" name="skin.quartz.AddonsShelf_Custom">false</setting>
+        <setting type="bool" name="skin.quartz.Movies1">false</setting>
+        <setting type="bool" name="skin.quartz.Movies2">false</setting>
+        <setting type="bool" name="skin.quartz.Movies3">false</setting>
+        <setting type="bool" name="skin.quartz.Movies4">false</setting>
+        <setting type="bool" name="skin.quartz.Movies5">false</setting>
+        <setting type="bool" name="skin.quartz.MoviesSectionHide">false</setting>
+        <setting type="bool" name="skin.quartz.TV1">false</setting>
+        <setting type="bool" name="skin.quartz.TV2">false</setting>
+        <setting type="bool" name="skin.quartz.TV5">false</setting>
+        <setting type="bool" name="skin.quartz.TV3">false</setting>
+        <setting type="bool" name="skin.quartz.TV4">false</setting>
+        <setting type="bool" name="skin.quartz.TVSectionHide">false</setting>
+        <setting type="bool" name="skin.quartz.Music1">false</setting>
+        <setting type="bool" name="skin.quartz.Music2">false</setting>
+        <setting type="bool" name="skin.quartz.Music3">false</setting>
+        <setting type="bool" name="skin.quartz.Music4">false</setting>
+        <setting type="bool" name="skin.quartz.Music5">false</setting>
+        <setting type="bool" name="skin.quartz.MusicSectionHide">false</setting>
+        <setting type="bool" name="skin.quartz.Pictures1">false</setting>
+        <setting type="bool" name="skin.quartz.PicturesSectionHide">false</setting>
+        <setting type="bool" name="skin.quartz.Addons1">false</setting>
+        <setting type="bool" name="skin.quartz.Addons2">false</setting>
+        <setting type="bool" name="skin.quartz.Addons3">false</setting>
+        <setting type="bool" name="skin.quartz.Addons4">false</setting>
+        <setting type="bool" name="skin.quartz.Addons5">false</setting>
+        <setting type="bool" name="skin.quartz.Addons6">false</setting>
+        <setting type="bool" name="skin.quartz.AddonsSectionHide">false</setting>
+        <setting type="bool" name="skin.quartz.HideSettings">false</setting>
+        <setting type="bool" name="skin.quartz.XBMC2">false</setting>
+        <setting type="bool" name="skin.quartz.XBMC3">false</setting>
+        <setting type="bool" name="skin.quartz.XBMC4">false</setting>
+        <setting type="bool" name="skin.quartz.MoviesShelf_Custom">false</setting>
+        <setting type="bool" name="skin.quartz.TVShelf_Custom">false</setting>
+        <setting type="bool" name="skin.quartz.MusicShelf_Custom">false</setting>
+        <setting type="bool" name="skin.quartz.PicturesShelf_Image">false</setting>
+        <setting type="bool" name="skin.quartz.AddonsShelf_Image">false</setting>
+        <setting type="bool" name="skin.quartz.XBMCShelf_Image">false</setting>
+        <setting type="bool" name="skin.quartz.DebugGrid">false</setting>
+        <setting type="bool" name="skin.quartz.DebugInfo">false</setting>
+        <setting type="bool" name="skin.quartz.ShowClock">false</setting>
+        <setting type="bool" name="skin.quartz.AutoScroll">false</setting>
+        <setting type="bool" name="skin.quartz.ViewOptions_Hide">false</setting>
+        <setting type="bool" name="skin.quartz.HideFanart">false</setting>
+        <setting type="bool" name="skin.back-row.Small Film Strip">false</setting>
+        <setting type="bool" name="skin.back-row.Low Film Strip">false</setting>
+        <setting type="bool" name="skin.back-row.Videos">false</setting>
+        <setting type="bool" name="skin.back-row.disablecountdown">false</setting>
+        <setting type="bool" name="skin.back-row.Wallpaper">false</setting>
+        <setting type="bool" name="skin.back-row.Default Wallpaper">false</setting>
+        <setting type="bool" name="skin.back-row.animation_bg">false</setting>
+        <setting type="bool" name="skin.back-row.CustomVideos">false</setting>
+        <setting type="bool" name="skin.back-row.CustomVideosFoldOn">false</setting>
+        <setting type="bool" name="skin.back-row.CustomVideosFolder">false</setting>
+        <setting type="bool" name="skin.back-row.CustomMovies">false</setting>
+        <setting type="bool" name="skin.back-row.CustomMoviesFoldOn">false</setting>
+        <setting type="bool" name="skin.back-row.movies">false</setting>
+        <setting type="bool" name="skin.back-row.CustomMoviesFolder">false</setting>
+        <setting type="bool" name="skin.back-row.CustomTV">false</setting>
+        <setting type="bool" name="skin.back-row.CustomTVFoldOn">false</setting>
+        <setting type="bool" name="skin.back-row.tv-library">false</setting>
+        <setting type="bool" name="skin.back-row.CustomTVFolder">false</setting>
+        <setting type="bool" name="skin.back-row.CustomMusicVid">false</setting>
+        <setting type="bool" name="skin.back-row.CustomMusicVidFoldOn">false</setting>
+        <setting type="bool" name="skin.back-row.CustomMusicVidFolder">false</setting>
+        <setting type="bool" name="skin.back-row.CustomMusic">false</setting>
+        <setting type="bool" name="skin.back-row.CustomMusicFoldOn">false</setting>
+        <setting type="bool" name="skin.back-row.CustomMusicFolder">false</setting>
+        <setting type="bool" name="skin.back-row.CustomPictures">false</setting>
+        <setting type="bool" name="skin.back-row.CustomPicturesFoldOn">false</setting>
+        <setting type="bool" name="skin.back-row.CustomPicturesFolder">false</setting>
+        <setting type="bool" name="skin.back-row.CustomApps">false</setting>
+        <setting type="bool" name="skin.back-row.CustomAppsFoldOn">false</setting>
+        <setting type="bool" name="skin.back-row.CustomAppsFolder">false</setting>
+        <setting type="bool" name="skin.back-row.CustomFiles">false</setting>
+        <setting type="bool" name="skin.back-row.CustomFilesFoldOn">false</setting>
+        <setting type="bool" name="skin.back-row.CustomFilesFolder">false</setting>
+        <setting type="bool" name="skin.back-row.CustomWeather">false</setting>
+        <setting type="bool" name="skin.back-row.CustomWeatherFoldOn">false</setting>
+        <setting type="bool" name="skin.back-row.conditional weather">false</setting>
+        <setting type="bool" name="skin.back-row.CustomWeatherFolder">false</setting>
+        <setting type="bool" name="skin.back-row.CustomSettings">false</setting>
+        <setting type="bool" name="skin.back-row.CustomSettingsFoldOn">false</setting>
+        <setting type="bool" name="skin.back-row.CustomSettingsFolder">false</setting>
+        <setting type="bool" name="skin.back-row.Customdef">false</setting>
+        <setting type="bool" name="skin.back-row.CustomdefFoldOn">false</setting>
+        <setting type="bool" name="skin.back-row.CustomdefFolder">false</setting>
+        <setting type="bool" name="skin.back-row.home-visualisation">false</setting>
+        <setting type="bool" name="skin.back-row.Music Fanart Visualisation Toggle">false</setting>
+        <setting type="bool" name="skin.back-row.Slideshow Ken Burns Toggle">false</setting>
+        <setting type="bool" name="skin.back-row.Music Fanart Slideshow Toggle">false</setting>
+        <setting type="bool" name="skin.back-row.Darken Wallpaper">false</setting>
+        <setting type="bool" name="skin.back-row.home-video-preview">false</setting>
+        <setting type="bool" name="skin.back-row.home-music-info">false</setting>
+        <setting type="bool" name="skin.back-row.homebuttons">false</setting>
+        <setting type="bool" name="skin.back-row.Recently Added">false</setting>
+        <setting type="bool" name="skin.back-row.Recently Added Movies">false</setting>
+        <setting type="bool" name="skin.back-row.random_items Movies">false</setting>
+        <setting type="bool" name="skin.back-row.Recently Added TV">false</setting>
+        <setting type="bool" name="skin.back-row.random_items TV">false</setting>
+        <setting type="bool" name="skin.back-row.Recently Added Music">false</setting>
+        <setting type="bool" name="skin.back-row.random_items Music">false</setting>
+        <setting type="bool" name="skin.back-row.weather">false</setting>
+        <setting type="bool" name="skin.back-row.Airing Today">false</setting>
+        <setting type="bool" name="skin.back-row.Weather1">false</setting>
+        <setting type="bool" name="skin.back-row.Settings">false</setting>
+        <setting type="bool" name="skin.back-row.videos-library">false</setting>
+        <setting type="bool" name="skin.back-row.movies-library">false</setting>
+        <setting type="bool" name="skin.back-row.Library Title/Route">false</setting>
+        <setting type="bool" name="skin.back-row.tvs-library">false</setting>
+        <setting type="bool" name="skin.back-row.DialogHome1">false</setting>
+        <setting type="bool" name="skin.back-row.DialogHome2">false</setting>
+        <setting type="bool" name="skin.back-row.DialogHome3">false</setting>
+        <setting type="bool" name="skin.back-row.DialogHome4">false</setting>
+        <setting type="bool" name="skin.back-row.DialogHome5">false</setting>
+        <setting type="bool" name="skin.back-row.DialogHome6">false</setting>
+        <setting type="bool" name="skin.back-row.DialogHome7">false</setting>
+        <setting type="bool" name="skin.back-row.DialogHome8">false</setting>
+        <setting type="bool" name="skin.back-row.DialogHome9">false</setting>
+        <setting type="bool" name="skin.back-row.DialogHome10">false</setting>
+        <setting type="bool" name="skin.back-row.DialogHome11">false</setting>
+        <setting type="bool" name="skin.back-row.DialogHome12">false</setting>
+        <setting type="bool" name="skin.back-row.musicvideo-library">false</setting>
+        <setting type="bool" name="skin.back-row.MusicVideos">false</setting>
+        <setting type="bool" name="skin.back-row.Music">false</setting>
+        <setting type="bool" name="skin.back-row.Pictures">false</setting>
+        <setting type="bool" name="skin.back-row.Files">false</setting>
+        <setting type="bool" name="skin.back-row.Programs">false</setting>
+        <setting type="bool" name="skin.back-row.VideosSub_Movies">false</setting>
+        <setting type="bool" name="skin.back-row.VideosSub_TV_Shows">false</setting>
+        <setting type="bool" name="skin.back-row.VideosSub_Music_Videos">false</setting>
+        <setting type="bool" name="skin.back-row.VideosSub_Files">false</setting>
+        <setting type="bool" name="skin.back-row.VideosSub_Library">false</setting>
+        <setting type="bool" name="skin.back-row.VideosSub_Video_Add-Ons">false</setting>
+        <setting type="bool" name="skin.back-row.Videos_Custom1">false</setting>
+        <setting type="bool" name="skin.back-row.Videos_Custom2">false</setting>
+        <setting type="bool" name="skin.back-row.Videos_Custom3">false</setting>
+        <setting type="bool" name="skin.back-row.Videos_Custom4">false</setting>
+        <setting type="bool" name="skin.back-row.Videos_Custom5">false</setting>
+        <setting type="bool" name="skin.back-row.MoviesSub_Genres">false</setting>
+        <setting type="bool" name="skin.back-row.MoviesSub_Titles">false</setting>
+        <setting type="bool" name="skin.back-row.MoviesSub_Recently_Added">false</setting>
+        <setting type="bool" name="skin.back-row.MoviesSub_Playlists">false</setting>
+        <setting type="bool" name="skin.back-row.MoviesSub_Sets">false</setting>
+        <setting type="bool" name="skin.back-row.MoviesSub_Actors">false</setting>
+        <setting type="bool" name="skin.back-row.MoviesSub_Directors">false</setting>
+        <setting type="bool" name="skin.back-row.MoviesSub_Studios">false</setting>
+        <setting type="bool" name="skin.back-row.Movies_Custom1">false</setting>
+        <setting type="bool" name="skin.back-row.Movies_Custom2">false</setting>
+        <setting type="bool" name="skin.back-row.Movies_Custom3">false</setting>
+        <setting type="bool" name="skin.back-row.Movies_Custom4">false</setting>
+        <setting type="bool" name="skin.back-row.Movies_Custom6">false</setting>
+        <setting type="bool" name="skin.back-row.TV_ShowsSub_Genres">false</setting>
+        <setting type="bool" name="skin.back-row.TV_ShowsSub_Titles">false</setting>
+        <setting type="bool" name="skin.back-row.TV_ShowsSub_TV_Guide">false</setting>
+        <setting type="bool" name="skin.back-row.TV_ShowsSub_Recently_Added">false</setting>
+        <setting type="bool" name="skin.back-row.TV_ShowsSub_Actors">false</setting>
+        <setting type="bool" name="skin.back-row.TV_ShowsSub_Studios">false</setting>
+        <setting type="bool" name="skin.back-row.TV Shows_Custom1">false</setting>
+        <setting type="bool" name="skin.back-row.TV Shows_Custom2">false</setting>
+        <setting type="bool" name="skin.back-row.TV Shows_Custom3">false</setting>
+        <setting type="bool" name="skin.back-row.TV Shows_Custom4">false</setting>
+        <setting type="bool" name="skin.back-row.TV Shows_Custom5">false</setting>
+        <setting type="bool" name="skin.back-row.Music_VideosSub_Genres">false</setting>
+        <setting type="bool" name="skin.back-row.Music_VideosSub_Titles">false</setting>
+        <setting type="bool" name="skin.back-row.Music_VideosSub_Recently_Added">false</setting>
+        <setting type="bool" name="skin.back-row.Music_VideosSub_Artists">false</setting>
+        <setting type="bool" name="skin.back-row.Music_VideosSub_Directors">false</setting>
+        <setting type="bool" name="skin.back-row.Music Videos_Custom1">false</setting>
+        <setting type="bool" name="skin.back-row.Music Videos_Custom2">false</setting>
+        <setting type="bool" name="skin.back-row.Music Videos_Custom3">false</setting>
+        <setting type="bool" name="skin.back-row.Music Videos_Custom4">false</setting>
+        <setting type="bool" name="skin.back-row.Music Videos_Custom5">false</setting>
+        <setting type="bool" name="skin.back-row.MusicSub_Genres">false</setting>
+        <setting type="bool" name="skin.back-row.MusicSub_Artists">false</setting>
+        <setting type="bool" name="skin.back-row.MusicSub_Recently_Added">false</setting>
+        <setting type="bool" name="skin.back-row.MusicSub_Playlists">false</setting>
+        <setting type="bool" name="skin.back-row.MusicSub_Singles">false</setting>
+        <setting type="bool" name="skin.back-row.MusicSub_Albums">false</setting>
+        <setting type="bool" name="skin.back-row.MusicSub_Songs">false</setting>
+        <setting type="bool" name="skin.back-row.MusicSub_Files">false</setting>
+        <setting type="bool" name="skin.back-row.MusicSub_Library">false</setting>
+        <setting type="bool" name="skin.back-row.MusicSub_Music Add-Ons">false</setting>
+        <setting type="bool" name="skin.back-row.Music_Custom1">false</setting>
+        <setting type="bool" name="skin.back-row.Music_Custom2">false</setting>
+        <setting type="bool" name="skin.back-row.Music_Custom3">false</setting>
+        <setting type="bool" name="skin.back-row.Music_Custom4">false</setting>
+        <setting type="bool" name="skin.back-row.Music_Custom5">false</setting>
+        <setting type="bool" name="skin.back-row.clearart">false</setting>
+        <setting type="bool" name="skin.back-row.Use Number of Items Label">false</setting>
+        <setting type="bool" name="skin.back-row.Use Library Info Labels">false</setting>
+        <setting type="bool" name="skin.back-row.TimeDate">false</setting>
+        <setting type="bool" name="skin.back-row.videomovies">true</setting>
+        <setting type="bool" name="skin.back-row.enablefanart">false</setting>
+        <setting type="bool" name="skin.back-row.Background">false</setting>
+        <setting type="bool" name="skin.back-row.CustomMenu">false</setting>
+        <setting type="bool" name="skin.back-row.CustomMenuFolder">false</setting>
+        <setting type="bool" name="skin.back-row.extrafanart">false</setting>
+        <setting type="bool" name="skin.back-row.animated">false</setting>
+        <setting type="bool" name="skin.back-row.menu-overlay">false</setting>
+        <setting type="bool" name="skin.back-row.TV Poster">false</setting>
+        <setting type="bool" name="skin.back-row.LockViews">false</setting>
+        <setting type="bool" name="skin.back-row.sbar">false</setting>
+        <setting type="bool" name="skin.back-row.Wallviewinfo">false</setting>
+        <setting type="bool" name="skin.back-row.Expandedlist3">false</setting>
+        <setting type="bool" name="skin.back-row.TV use logos">false</setting>
+        <setting type="bool" name="skin.back-row.DVD Animation">false</setting>
+        <setting type="bool" name="skin.back-row.Fanart_Wrap_Labels">false</setting>
+        <setting type="bool" name="skin.back-row.tv_theme">false</setting>
+        <setting type="bool" name="skin.metropolis.home2">false</setting>
+        <setting type="bool" name="skin.metropolis.ShowRecentlyAdded">false</setting>
+        <setting type="bool" name="skin.metropolis.DebugGrid">false</setting>
+        <setting type="bool" name="skin.metropolis.DebugMode">false</setting>
+        <setting type="bool" name="skin.metropolis.HideHelpText">false</setting>
+        <setting type="bool" name="skin.metropolis.NoMovies">false</setting>
+        <setting type="bool" name="skin.metropolis.NoTVShows">false</setting>
+        <setting type="bool" name="skin.metropolis.NoVideos">false</setting>
+        <setting type="bool" name="skin.metropolis.NoTrailers">false</setting>
+        <setting type="bool" name="skin.metropolis.NoMusic">false</setting>
+        <setting type="bool" name="skin.metropolis.NoPictures">false</setting>
+        <setting type="bool" name="skin.metropolis.NoPrograms">false</setting>
+        <setting type="bool" name="skin.metropolis.NoWeather">false</setting>
+        <setting type="bool" name="skin.metropolis.HomeWeather">false</setting>
+        <setting type="bool" name="skin.metropolis.NoSettings">false</setting>
+        <setting type="bool" name="skin.metropolis.NoFavourites">false</setting>
+        <setting type="bool" name="skin.metropolis.NoShutdown">false</setting>
+        <setting type="bool" name="skin.metropolis.HomeStats">false</setting>
+        <setting type="bool" name="skin.metropolis.HideClockTemp">false</setting>
+        <setting type="bool" name="skin.metropolis.CDArt">false</setting>
+        <setting type="bool" name="skin.metropolis.ShowRandomItems">false</setting>
+        <setting type="bool" name="skin.metropolis.NoRSS">false</setting>
+        <setting type="bool" name="skin.metropolis.Slim_Seekbar">false</setting>
+        <setting type="bool" name="skin.metropolis.AutoScroll">false</setting>
+        <setting type="bool" name="skin.metropolis.Enable_OSDLogo">false</setting>
+        <setting type="bool" name="skin.metropolis.Enable_OSDClearArt">false</setting>
+        <setting type="bool" name="skin.metropolis.Enable_OSDThumbnail">false</setting>
+        <setting type="bool" name="skin.metropolis.ViewLockdown">false</setting>
+        <setting type="bool" name="skin.metropolis.HideMovieWatchedOverlays">false</setting>
+        <setting type="bool" name="skin.metropolis.HideTVWatchedOverlays">false</setting>
+        <setting type="bool" name="skin.metropolis.LibraryUpdated">true</setting>
+        <setting type="bool" name="skin.metropolis.HideGenreDescriptions">false</setting>
+        <setting type="bool" name="skin.metropolis.ShowAllMediaFlags">false</setting>
+        <setting type="bool" name="skin.metropolis.HideVideoFanart">false</setting>
+        <setting type="bool" name="skin.metropolis.NoViewLowList">false</setting>
+        <setting type="bool" name="skin.metropolis.landscape_jpg">false</setting>
+        <setting type="bool" name="skin.metropolis.NoViewPosterFixed">false</setting>
+        <setting type="bool" name="skin.metropolis.NoViewPosterWrap">false</setting>
+        <setting type="bool" name="skin.metropolis.NoSegmentedFanart">false</setting>
+        <setting type="bool" name="skin.metropolis.NoViewPosterFanart">false</setting>
+        <setting type="bool" name="skin.metropolis.NoViewPosterLarge">false</setting>
+        <setting type="bool" name="skin.metropolis.NoViewCoverflow">false</setting>
+        <setting type="bool" name="skin.metropolis.NoViewLandscape">false</setting>
+        <setting type="bool" name="skin.metropolis.NoViewList">false</setting>
+        <setting type="bool" name="skin.metropolis.NoViewFanart">false</setting>
+        <setting type="bool" name="skin.metropolis.NoViewFanartList">false</setting>
+        <setting type="bool" name="skin.metropolis.banner_jpg">false</setting>
+        <setting type="bool" name="skin.metropolis.NoViewBannerFanart">false</setting>
+        <setting type="bool" name="skin.metropolis.NoViewBanner">false</setting>
+        <setting type="bool" name="skin.metropolis.NoViewBannerPoster">false</setting>
+        <setting type="bool" name="skin.metropolis.NoViewGallery">false</setting>
+        <setting type="bool" name="skin.metropolis.NoViewGalleryFanart">false</setting>
+        <setting type="bool" name="skin.metropolis.NoViewGallerySquare">false</setting>
+        <setting type="bool" name="skin.metropolis.NoViewLogo">false</setting>
+        <setting type="bool" name="skin.metropolis.HideGenreIconLabels">false</setting>
+        <setting type="bool" name="skin.metropolis.NoViewTallGenre">false</setting>
+        <setting type="bool" name="skin.metropolis.Show_PlotOutline">false</setting>
+        <setting type="bool" name="skin.metropolis.TvTunes">false</setting>
+        <setting type="bool" name="skin.metropolis.NextAired">false</setting>
+        <setting type="bool" name="skin.metropolis.HideLoginFrames">false</setting>
+        <setting type="bool" name="skin.metropolis.Use_Startup_Playlist">false</setting>
+        <setting type="bool" name="skin.metropolis.NoViewPictureGrid">false</setting>
+        <setting type="bool" name="skin.metropolis.NoViewPanelSquare">false</setting>
+        <setting type="bool" name="skin.metropolis.TV_Panel_Logo">false</setting>
+        <setting type="bool" name="skin.metropolis.ShowVideoPath">false</setting>
+        <setting type="bool" name="skin.metropolis.HideMusicFanart">false</setting>
+        <setting type="bool" name="skin.metropolis.Use_Fanart_Viz">false</setting>
+        <setting type="bool" name="skin.metropolis.Artist_Slideshow">false</setting>
+        <setting type="bool" name="skin.metropolis.HidePictureFanart">false</setting>
+        <setting type="string" name="skin.confluence.Home_Custom_Back_Weather_Folder"></setting>
+        <setting type="string" name="skin.confluence.Home_Custom_Back_Pictures_Folder"></setting>
+        <setting type="string" name="skin.confluence.Home_Custom_Back_Video_Folder"></setting>
+        <setting type="string" name="skin.confluence.Home_Custom_Back_Movies_Folder"></setting>
+        <setting type="string" name="skin.confluence.Home_Custom_Back_TVShow_Folder"></setting>
+        <setting type="string" name="skin.confluence.Home_Custom_Back_Music_Folder"></setting>
+        <setting type="string" name="skin.confluence.Home_Custom_Back_Programs_Folder"></setting>
+        <setting type="string" name="skin.confluence.Home_Custom_Back_PlayDisc_Folder"></setting>
+        <setting type="string" name="skin.confluence.Home_Custom_Back_Settings_Folder"></setting>
+        <setting type="string" name="skin.confluence.HomeVideosButton1"></setting>
+        <setting type="string" name="skin.confluence.HomeVideosButton2"></setting>
+        <setting type="string" name="skin.confluence.HomeVideosButton3"></setting>
+        <setting type="string" name="skin.confluence.HomeVideosButton4"></setting>
+        <setting type="string" name="skin.confluence.HomeVideosButton5"></setting>
+        <setting type="string" name="skin.confluence.HomeMusicButton1"></setting>
+        <setting type="string" name="skin.confluence.HomeMusicButton2"></setting>
+        <setting type="string" name="skin.confluence.HomeMusicButton3"></setting>
+        <setting type="string" name="skin.confluence.HomeMusicButton4"></setting>
+        <setting type="string" name="skin.confluence.HomeMusicButton5"></setting>
+        <setting type="string" name="skin.confluence.HomePictureButton1"></setting>
+        <setting type="string" name="skin.confluence.HomePictureButton2"></setting>
+        <setting type="string" name="skin.confluence.HomePictureButton3"></setting>
+        <setting type="string" name="skin.confluence.HomePictureButton4"></setting>
+        <setting type="string" name="skin.confluence.HomePictureButton5"></setting>
+        <setting type="string" name="skin.confluence.HomeProgramButton1"></setting>
+        <setting type="string" name="skin.confluence.HomeProgramButton2"></setting>
+        <setting type="string" name="skin.confluence.HomeProgramButton3"></setting>
+        <setting type="string" name="skin.confluence.HomeProgramButton4"></setting>
+        <setting type="string" name="skin.confluence.HomeProgramButton5"></setting>
+        <setting type="string" name="skin.confluence.SubtitleScript_Path"></setting>
+        <setting type="string" name="skin.confluence.WeatherFanartDir"></setting>
+        <setting type="string" name="skin.confluence.WeatherScript_Label"></setting>
+        <setting type="string" name="skin.confluence.LyricScript_Path"></setting>
+        <setting type="string" name="skin.confluence.Startup_Playlist_Path"></setting>
+        <setting type="string" name="skin.confluence.Home_Custom_Back_Addons_Folder"></setting>
+        <setting type="string" name="skin.confluence.HomeProgramButton6"></setting>
+        <setting type="string" name="skin.aeon.nox.ArtistsLogosPath"></setting>
+        <setting type="string" name="skin.aeon.nox.diffuse_home">FFFFFFFF</setting>
+        <setting type="string" name="skin.aeon.nox.WeatherFanartDir"></setting>
+        <setting type="string" name="skin.aeon.nox.AnimatedWeatherIconsDir"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_Pictures_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_Music_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_Movies_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_TVShow_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_TVGuide_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_featured_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_Video_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_Programs_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_Settings_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_Addons_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_Shutdown_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_Favourites_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_Disc_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_Weather_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.diffuse_bar">FFFFFFFF</setting>
+        <setting type="string" name="skin.aeon.nox.diffuse">FF6db9e5</setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuMusicDefaultAction.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuMoviesDefaultAction.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuTVShowsDefaultAction.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Startup_Playlist_Path"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuVideoPlaylist1_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_Custom1_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuVideoPlaylist2_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_Custom2_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuVideoPlaylist3_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_Custom3_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuFavourite1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_Favourite1_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuFavourite2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_Favourite2_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuFavourite3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_Favourite3_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuFavourite4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_Favourite4_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuFavourite5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_Favourite5_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuFavourite6.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_Favourite6_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.Home_Custom_Back_Comics_Folder"></setting>
+        <setting type="string" name="skin.aeon.nox.LyricScript_Path"></setting>
+        <setting type="string" name="skin.aeon.nox.SubtitleScript_Path"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuSubMoviesTrailer"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuVideosDefaultAction.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuProgramsDefaultAction.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.CDWall_Folder_Path"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomFocusOffset"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMusicPlaylist1_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMusicPlaylist2_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMusicPlaylist3_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuSubMusicFavourite1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuSubMusicFavourite2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuSubMusicFavourite3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeProgramButton1"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeProgramButton2"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeProgramButton3"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeProgramButton4"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeProgramButton5"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeProgramButton6"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuSubProgramsFavourite1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuSubProgramsFavourite2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuSubProgramsFavourite3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMoviePlaylist1_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMoviePlaylist2_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMoviePlaylist3_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuSubMoviesFavourite1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuSubMoviesFavourite2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuSubMoviesFavourite3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeTVPlaylist1_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeTVPlaylist2_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeTVPlaylist3_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuSubTVFavourite1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuSubTVFavourite2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuSubTVFavourite3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubPL1_1_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubPL1_2_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubPL1_3_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubPL1_4_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubPL1_5_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubPL2_1_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubPL2_2_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubPL2_3_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubPL2_4_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubPL2_5_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubPL3_1_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubPL3_2_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubPL3_3_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubPL3_4_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubPL3_5_Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav1_1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav1_2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav1_3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav1_4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav1_5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav2_1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav2_2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav2_3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav2_4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav2_5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav3_1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav3_2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav3_3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav3_4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav3_5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav4_1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav4_2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav4_3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav4_4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav4_5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav5_1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav5_2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav5_3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav5_4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav5_5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav6_1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav6_2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav6_3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav6_4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.CustomSubFav6_5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.HomeMenuPictureDefaultAction.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ArtistsLogosPath"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem1.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem2.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem3.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem4.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem5.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem6.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem7.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem8.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem9.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.diffuse_color">FFFFFFFF</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.diffuse_videolibrary">FFFFFFFF</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.diffuse_music">FFFFFFFF</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.diffuse_programs">FFFFFFFF</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.diffuse_pictures">FFFFFFFF</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.diffuse_mainmenu">FFFFFFFF</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.diffuse_addons">FFFFFFFF</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.diffuse_musicplaylist">FFFFFFFF</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.diffuse_videoplaylist">FFFFFFFF</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.diffuse_weather">FFFFFFFF</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.diffuse_featured">FFFFFFFF</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.diffuse_settings">FFFFFFFF</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.diffuse_PVR">FFFFFFFF</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ItemToEdit.Widget">recentalbums</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ItemToEdit.MultiFanart">widgetfanart</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.WeatherFanartDir"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.BackgroundDarkness">A0FFFFFF</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.IconPanelItem1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.IconPanelItem1.Icon"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.IconPanelItem2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.IconPanelItem2.Icon"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.IconPanelItem3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.IconPanelItem3.Icon"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.IconPanelItem4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.IconPanelItem4.Icon"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.IconPanelItem5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.IconPanelItem5.Icon"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.IconPanelItem6.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.IconPanelItem6.Icon"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.IconPanelItem7.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.IconPanelItem7.Icon"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.IconPanelItem8.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.IconPanelItem8.Icon"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.IconPanelItem9.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.IconPanelItem9.Icon"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.IconPanelItem10.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.IconPanelItem10.Icon"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.HomeMenuTileVideos1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.HomeMenuTileVideos1.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.HomeMenuTileVideos1.Icon"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.HomeMenuTileVideos1.Type"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.HomeMenuTileVideos2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.HomeMenuTileVideos2.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.HomeMenuTileVideos2.Icon"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.HomeMenuTileVideos2.Type"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.HomeMenuTileVideos3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.HomeMenuTileVideos3.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.HomeMenuTileVideos3.Icon"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.HomeMenuTileVideos3.Type"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.HomeMenuTileVideos4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.HomeMenuTileVideos4.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.HomeMenuTileVideos4.Icon"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.HomeMenuTileVideos4.Type"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.HomeMenuTileVideos5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.HomeMenuTileVideos5.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.HomeMenuTileVideos5.Icon"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.HomeMenuTileVideos5.Type"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomMusicSub1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomMusicSub1.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomMusicSub2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomMusicSub2.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomMusicSub3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomMusicSub3.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomMusicSub4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomMusicSub4.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomMusicSub5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomMusicSub5.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomMusicSub6.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomMusicSub6.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomMusicSub7.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomMusicSub7.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomMusicSub8.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomMusicSub8.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ProgramsSub1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ProgramsSub1.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ProgramsSub2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ProgramsSub2.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ProgramsSub3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ProgramsSub3.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ProgramsSub4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ProgramsSub4.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ProgramsSub5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ProgramsSub5.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ProgramsSub6.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ProgramsSub6.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ProgramsSub7.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ProgramsSub7.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ProgramsSub8.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ProgramsSub8.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MovieSub1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MovieSub1.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MovieSub2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MovieSub2.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MovieSub3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MovieSub3.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MovieSub4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MovieSub4.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MovieSub5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MovieSub5.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.SettingsSub1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.SettingsSub1.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.SettingsSub2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.SettingsSub2.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.SettingsSub3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.SettingsSub3.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.SettingsSub4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.SettingsSub4.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.SettingsSub5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.SettingsSub5.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.TVShowSub1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.TVShowSub1.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.TVShowSub2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.TVShowSub2.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.TVShowSub3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.TVShowSub3.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.TVShowSub4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.TVShowSub4.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.TVShowSub5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.TVShowSub5.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.PicturesHomeItem.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.PicturesHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.PicturesHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MusicHomeItem.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MusicHomeItem.MultiFanart">widgetfanart</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MusicHomeItem.Widget">recentalbums</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MovieHomeItem.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MovieHomeItem.MultiFanart">randommovies</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MovieHomeItem.Widget">randommoviespanel</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MusicVideosHomeItem.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MusicVideosHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MusicVideosHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.TVShowHomeItem.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.TVShowHomeItem.MultiFanart">widgetfanart</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.TVShowHomeItem.Widget">recenttv</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.TVGuideHomeItem.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.TVGuideHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.TVGuideHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.FeaturedHomeItem.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.FeaturedHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.FeaturedHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.VideosHomeItem.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.VideosHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.VideosHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ProgramsHomeItem.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ProgramsHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ProgramsHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.SettingsHomeItem.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.SettingsHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.SettingsHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.FullscreenHomeItem.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.FullscreenHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.FullscreenHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.AddonsHomeItem.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.AddonsHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.AddonsHomeItem.Widget">randomaddons</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ShutdownHomeItem.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ShutdownHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ShutdownHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.FavouritesHomeItem.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.FavouritesHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.FavouritesHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.PlayDiscHomeItem.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.PlayDiscHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.PlayDiscHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.WeatherHomeItem.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.WeatherHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.WeatherHomeItem.Widget">weather</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.IncludeWatchedCVPL">False</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.Startup_Playlist_Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub1_1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub1_1.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub1_2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub1_2.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub1_3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub1_3.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub1_4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub1_4.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub1_5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub1_5.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub2_1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub2_1.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub2_2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub2_2.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub2_3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub2_3.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub2_4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub2_4.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub2_5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub2_5.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub3_1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub3_1.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub3_2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub3_2.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub3_3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub3_3.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub3_4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub3_4.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub3_5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub3_5.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub4_1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub4_1.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub4_2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub4_2.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub4_3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub4_3.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub4_4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub4_4.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub4_5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub4_5.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub5_1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub5_1.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub5_2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub5_2.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub5_3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub5_3.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub5_4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub5_4.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub5_5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub5_5.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub6_1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub6_1.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub6_2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub6_2.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub6_3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub6_3.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub6_4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub6_4.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub6_5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub6_5.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub7_1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub7_1.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub7_2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub7_2.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub7_3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub7_3.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub7_4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub7_4.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub7_5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub7_5.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub8_1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub8_1.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub8_2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub8_2.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub8_3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub8_3.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub8_4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub8_4.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub8_5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub8_5.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub9_1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub9_1.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub9_2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub9_2.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub9_3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub9_3.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub9_4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub9_4.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub9_5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomSub9_5.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.LiveTVHomeItem.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.LiveTVHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.LiveTVHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem1.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem1.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem2.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem2.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem3.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem3.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem4.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem4.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem5.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem5.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem6.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem6.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem7.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem7.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem8.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem8.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem9.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CustomHomeItem9.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ComicsHomeItem.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ComicsHomeItem.MultiFanart"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ComicsHomeItem.Widget"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.CDWall_Folder_Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.LyricScript_Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.SubtitleScript_Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MusicHomeItem.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.TVShowHomeItem.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MovieHomeItem.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.VideosHomeItem.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.actualViewtype">addonwall</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.MenuItem">MusicHomeItem</setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ItemToEdit.Label"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ItemToEdit.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ItemToEdit.Type"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.FullscreenHomeItem.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.WeatherHomeItem.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.PicturesHomeItem.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.TVGuideHomeItem.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.FeaturedHomeItem.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.FavouritesHomeItem.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.AddonsHomeItem.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.ProgramsHomeItem.Path"></setting>
+        <setting type="string" name="skin.aeon.nox.Nox.HomeMenuSubMoviesTrailer">plugin.video.the.trailers</setting>
+        <setting type="string" name="skin.neon.CustomMusicFolder"></setting>
+        <setting type="string" name="skin.neon.CustomVideosFolder"></setting>
+        <setting type="string" name="skin.neon.CustomMoviesFolder"></setting>
+        <setting type="string" name="skin.neon.CustomHDMoviesFolder"></setting>
+        <setting type="string" name="skin.neon.CustomTVShowsFolder"></setting>
+        <setting type="string" name="skin.neon.Home_Custom_Back_TV_Folder"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom6_Label"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom6_Folder"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom7_Label"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom7_Folder"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom8_Label"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom8_Folder"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom9_Label"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom9_Folder"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom10_Label"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom10_Folder"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom1_Label"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom1_Folder"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom2_Label"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom2_Folder"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom3_Label"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom3_Folder"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom4_Label"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom4_Folder"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom5_Label"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom5_Folder"></setting>
+        <setting type="string" name="skin.neon.CustomPicturesFolder"></setting>
+        <setting type="string" name="skin.neon.CustomScriptsFolder"></setting>
+        <setting type="string" name="skin.neon.CustomfavouritesFolder"></setting>
+        <setting type="string" name="skin.neon.Home_Custom_Back_Weather_Folder"></setting>
+        <setting type="string" name="skin.neon.Home_Custom_Back_Weather_Folder1"></setting>
+        <setting type="string" name="skin.neon.CustomSettingsFolder"></setting>
+        <setting type="string" name="skin.neon.Home_Custom_Back_Shutdown_Folder"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom11_Label"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom12_Label"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom13_Label"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom14_Label"></setting>
+        <setting type="string" name="skin.neon.HomeScriptButton1_label"></setting>
+        <setting type="string" name="skin.neon.HomeScriptButton2_label"></setting>
+        <setting type="string" name="skin.neon.HomeScriptButton3_label"></setting>
+        <setting type="string" name="skin.neon.HomeScriptButton4_label"></setting>
+        <setting type="string" name="skin.neon.HomeScriptButton5_label"></setting>
+        <setting type="string" name="skin.neon.HomeScriptButton6_label"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom15_Label"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom16_Label"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom17_Label"></setting>
+        <setting type="string" name="skin.neon.Menu_Custom18_Label"></setting>
+        <setting type="string" name="skin.neon.Home_Custom_RSS_Logo"></setting>
+        <setting type="string" name="skin.neon.WeatherFanartDir"></setting>
+        <setting type="string" name="skin.quartz.CustomMovies.1.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomMovies.1.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomMovies.2.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomMovies.2.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomMovies.3.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomMovies.3.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomMovies.4.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomMovies.4.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomMovies.5.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomMovies.5.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomMovies.6.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomMovies.6.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomMovies.7.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomMovies.7.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomTV.1.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomTV.1.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomTV.2.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomTV.2.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomTV.3.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomTV.3.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomTV.4.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomTV.4.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomTV.5.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomTV.5.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomTV.6.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomTV.6.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomTV.7.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomTV.7.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomMusic.1.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomMusic.1.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomMusic.2.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomMusic.2.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomMusic.3.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomMusic.3.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomMusic.4.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomMusic.4.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomMusic.5.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomMusic.5.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomMusic.6.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomMusic.6.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomMusic.7.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomMusic.7.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomPictures.1.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomPictures.1.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomPictures.2.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomPictures.2.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomPictures.3.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomPictures.3.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomPictures.4.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomPictures.4.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomPictures.5.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomPictures.5.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomPictures.6.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomPictures.6.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomPictures.7.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomPictures.7.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomAddons.1.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomAddons.1.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomAddons.2.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomAddons.2.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomAddons.3.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomAddons.3.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomAddons.4.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomAddons.4.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomAddons.5.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomAddons.5.Path"></setting>
+        <setting type="string" name="skin.quartz.CustomAddons.6.Label"></setting>
+        <setting type="string" name="skin.quartz.CustomAddons.6.Path"></setting>
+        <setting type="string" name="skin.quartz.shutdown"></setting>
+        <setting type="string" name="skin.quartz.MoviesName"></setting>
+        <setting type="string" name="skin.quartz.TVName"></setting>
+        <setting type="string" name="skin.quartz.MusicName"></setting>
+        <setting type="string" name="skin.quartz.PicturesName"></setting>
+        <setting type="string" name="skin.quartz.AddonsName"></setting>
+        <setting type="string" name="skin.quartz.XBMCName"></setting>
+        <setting type="string" name="skin.quartz.ShelfMovies.1.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfMovies.2.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfMovies.3.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfMovies.4.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfMovies.5.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfMovies.6.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfMovies.6.Icon"></setting>
+        <setting type="string" name="skin.quartz.ShelfMovies.7.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfMovies.7.Icon"></setting>
+        <setting type="string" name="skin.quartz.ShelfMovies.8.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfMovies.8.Icon"></setting>
+        <setting type="string" name="skin.quartz.ShelfMovies.9.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfMovies.9.Icon"></setting>
+        <setting type="string" name="skin.quartz.ShelfMovies.10.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfMovies.10.Icon"></setting>
+        <setting type="string" name="skin.quartz.ShelfTV.1.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfTV.2.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfTV.3.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfTV.4.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfTV.5.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfTV.6.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfTV.6.Icon"></setting>
+        <setting type="string" name="skin.quartz.ShelfTV.6.Path"></setting>
+        <setting type="string" name="skin.quartz.ShelfTV.7.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfTV.7.Icon"></setting>
+        <setting type="string" name="skin.quartz.ShelfTV.7.Path"></setting>
+        <setting type="string" name="skin.quartz.ShelfTV.8.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfTV.8.Icon"></setting>
+        <setting type="string" name="skin.quartz.ShelfTV.8.Path"></setting>
+        <setting type="string" name="skin.quartz.ShelfTV.9.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfTV.9.Icon"></setting>
+        <setting type="string" name="skin.quartz.ShelfTV.9.Path"></setting>
+        <setting type="string" name="skin.quartz.ShelfTV.10.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfTV.10.Icon"></setting>
+        <setting type="string" name="skin.quartz.ShelfTV.10.Path"></setting>
+        <setting type="string" name="skin.quartz.ShelfMusic.1.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfMusic.2.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfMusic.3.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfMusic.4.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfMusic.5.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfMusic.6.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfMusic.6.Icon"></setting>
+        <setting type="string" name="skin.quartz.ShelfMusic.6.Path"></setting>
+        <setting type="string" name="skin.quartz.ShelfMusic.7.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfMusic.7.Icon"></setting>
+        <setting type="string" name="skin.quartz.ShelfMusic.7.Path"></setting>
+        <setting type="string" name="skin.quartz.ShelfMusic.8.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfMusic.8.Icon"></setting>
+        <setting type="string" name="skin.quartz.ShelfMusic.8.Path"></setting>
+        <setting type="string" name="skin.quartz.ShelfMusic.9.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfMusic.9.Icon"></setting>
+        <setting type="string" name="skin.quartz.ShelfMusic.9.Path"></setting>
+        <setting type="string" name="skin.quartz.ShelfMusic.10.Label"></setting>
+        <setting type="string" name="skin.quartz.ShelfMusic.10.Icon"></setting>
+        <setting type="string" name="skin.quartz.ShelfMusic.10.Path"></setting>
+        <setting type="string" name="skin.quartz.MoviesShelf_Icon"></setting>
+        <setting type="string" name="skin.quartz.TVShelf_Icon"></setting>
+        <setting type="string" name="skin.quartz.MusicShelf_Icon"></setting>
+        <setting type="string" name="skin.quartz.PicturesShelf_Icon"></setting>
+        <setting type="string" name="skin.quartz.AddonsShelf_Icon"></setting>
+        <setting type="string" name="skin.quartz.XBMCShelf_Icon"></setting>
+        <setting type="string" name="skin.back-row.CustomVideos"></setting>
+        <setting type="string" name="skin.back-row.CustomVideosFolder"></setting>
+        <setting type="string" name="skin.back-row.CustomMovies"></setting>
+        <setting type="string" name="skin.back-row.CustomMoviesFolder"></setting>
+        <setting type="string" name="skin.back-row.CustomTV"></setting>
+        <setting type="string" name="skin.back-row.CustomTVFolder"></setting>
+        <setting type="string" name="skin.back-row.CustomMusicVid"></setting>
+        <setting type="string" name="skin.back-row.CustomMusicVidFolder"></setting>
+        <setting type="string" name="skin.back-row.CustomMusic"></setting>
+        <setting type="string" name="skin.back-row.CustomMusicFolder"></setting>
+        <setting type="string" name="skin.back-row.CustomPictures"></setting>
+        <setting type="string" name="skin.back-row.CustomPicturesFolder"></setting>
+        <setting type="string" name="skin.back-row.CustomApps"></setting>
+        <setting type="string" name="skin.back-row.CustomAppsFolder"></setting>
+        <setting type="string" name="skin.back-row.CustomFiles"></setting>
+        <setting type="string" name="skin.back-row.CustomFilesFolder"></setting>
+        <setting type="string" name="skin.back-row.CustomWeather"></setting>
+        <setting type="string" name="skin.back-row.CustomWeatherFolder"></setting>
+        <setting type="string" name="skin.back-row.CustomSettings"></setting>
+        <setting type="string" name="skin.back-row.CustomSettingsFolder"></setting>
+        <setting type="string" name="skin.back-row.DialogHome1wallpaper"></setting>
+        <setting type="string" name="skin.back-row.DialogHome2wallpaper"></setting>
+        <setting type="string" name="skin.back-row.DialogHome3wallpaper"></setting>
+        <setting type="string" name="skin.back-row.DialogHome4wallpaper"></setting>
+        <setting type="string" name="skin.back-row.DialogHome5wallpaper"></setting>
+        <setting type="string" name="skin.back-row.DialogHome6wallpaper"></setting>
+        <setting type="string" name="skin.back-row.DialogHome7wallpaper"></setting>
+        <setting type="string" name="skin.back-row.DialogHome8wallpaper"></setting>
+        <setting type="string" name="skin.back-row.DialogHome9wallpaper"></setting>
+        <setting type="string" name="skin.back-row.DialogHome10wallpaper"></setting>
+        <setting type="string" name="skin.back-row.DialogHome11wallpaper"></setting>
+        <setting type="string" name="skin.back-row.DialogHome12wallpaper"></setting>
+        <setting type="string" name="skin.back-row.Customdef"></setting>
+        <setting type="string" name="skin.back-row.CustomdefFolder"></setting>
+        <setting type="string" name="skin.back-row.Other"></setting>
+        <setting type="string" name="skin.back-row.Default Slideshow_Folder_Path"></setting>
+        <setting type="string" name="skin.back-row.Music_Folder_Path"></setting>
+        <setting type="string" name="skin.back-row.custom-pictures"></setting>
+        <setting type="string" name="skin.back-row.WeatherIcon"></setting>
+        <setting type="string" name="skin.back-row.SettingsIcon"></setting>
+        <setting type="string" name="skin.back-row.DiscIcon"></setting>
+        <setting type="string" name="skin.back-row.VideoIcon"></setting>
+        <setting type="string" name="skin.back-row.MovieIcon"></setting>
+        <setting type="string" name="skin.back-row.TVIcon"></setting>
+        <setting type="string" name="skin.back-row.DialogHome1Title"></setting>
+        <setting type="string" name="skin.back-row.DialogHome1image"></setting>
+        <setting type="string" name="skin.back-row.DialogHome2Title"></setting>
+        <setting type="string" name="skin.back-row.DialogHome2image"></setting>
+        <setting type="string" name="skin.back-row.DialogHome3Title"></setting>
+        <setting type="string" name="skin.back-row.DialogHome3image"></setting>
+        <setting type="string" name="skin.back-row.DialogHome4Title"></setting>
+        <setting type="string" name="skin.back-row.DialogHome4image"></setting>
+        <setting type="string" name="skin.back-row.DialogHome5Title"></setting>
+        <setting type="string" name="skin.back-row.DialogHome5image"></setting>
+        <setting type="string" name="skin.back-row.DialogHome6Title"></setting>
+        <setting type="string" name="skin.back-row.DialogHome6image"></setting>
+        <setting type="string" name="skin.back-row.DialogHome7Title"></setting>
+        <setting type="string" name="skin.back-row.DialogHome7image"></setting>
+        <setting type="string" name="skin.back-row.DialogHome8Title"></setting>
+        <setting type="string" name="skin.back-row.DialogHome8image"></setting>
+        <setting type="string" name="skin.back-row.DialogHome9Title"></setting>
+        <setting type="string" name="skin.back-row.DialogHome9image"></setting>
+        <setting type="string" name="skin.back-row.DialogHome10Title"></setting>
+        <setting type="string" name="skin.back-row.DialogHome10image"></setting>
+        <setting type="string" name="skin.back-row.DialogHome11Title"></setting>
+        <setting type="string" name="skin.back-row.DialogHome11image"></setting>
+        <setting type="string" name="skin.back-row.DialogHome12Title"></setting>
+        <setting type="string" name="skin.back-row.DialogHome12image"></setting>
+        <setting type="string" name="skin.back-row.MusicVideoIcon"></setting>
+        <setting type="string" name="skin.back-row.MusicIcon"></setting>
+        <setting type="string" name="skin.back-row.PictureIcon"></setting>
+        <setting type="string" name="skin.back-row.FilemanagerIcon"></setting>
+        <setting type="string" name="skin.back-row.ProgramsIcon"></setting>
+        <setting type="string" name="skin.back-row.Videos_Custom1_Label"></setting>
+        <setting type="string" name="skin.back-row.Videos_Custom2_Label"></setting>
+        <setting type="string" name="skin.back-row.Videos_Custom3_Label"></setting>
+        <setting type="string" name="skin.back-row.Videos_Custom4_Label"></setting>
+        <setting type="string" name="skin.back-row.Videos_Custom5_Label"></setting>
+        <setting type="string" name="skin.back-row.Movies_Custom1_Label"></setting>
+        <setting type="string" name="skin.back-row.Movies_Custom2_Label"></setting>
+        <setting type="string" name="skin.back-row.Movies_Custom3_Label"></setting>
+        <setting type="string" name="skin.back-row.Movies_Custom4_Label"></setting>
+        <setting type="string" name="skin.back-row.Movies_Custom5_Label"></setting>
+        <setting type="string" name="skin.back-row.TV Shows_Custom1_Label"></setting>
+        <setting type="string" name="skin.back-row.TV Shows_Custom2_Label"></setting>
+        <setting type="string" name="skin.back-row.TV Shows_Custom3_Label"></setting>
+        <setting type="string" name="skin.back-row.TV Shows_Custom4_Label"></setting>
+        <setting type="string" name="skin.back-row.TV Shows_Custom5_Label"></setting>
+        <setting type="string" name="skin.back-row.Music Videos_Custom1_Label"></setting>
+        <setting type="string" name="skin.back-row.Music Videos_Custom2_Label"></setting>
+        <setting type="string" name="skin.back-row.Music Videos_Custom3_Label"></setting>
+        <setting type="string" name="skin.back-row.Music Videos_Custom4_Label"></setting>
+        <setting type="string" name="skin.back-row.Music Videos_Custom5_Label"></setting>
+        <setting type="string" name="skin.back-row.Music_Custom1_Label"></setting>
+        <setting type="string" name="skin.back-row.Music_Custom2_Label"></setting>
+        <setting type="string" name="skin.back-row.Music_Custom3_Label"></setting>
+        <setting type="string" name="skin.back-row.Music_Custom4_Label"></setting>
+        <setting type="string" name="skin.back-row.Music_Custom5_Label"></setting>
+        <setting type="string" name="skin.back-row.CustomSetCat"></setting>
+        <setting type="string" name="skin.back-row.CustomMenuFolder"></setting>
+        <setting type="string" name="skin.back-row.CustomMenu"></setting>
+        <setting type="string" name="skin.back-row.Addon Settings"></setting>
+        <setting type="string" name="skin.back-row.Skin Settings"></setting>
+        <setting type="string" name="skin.back-row.Appearance Settings"></setting>
+        <setting type="string" name="skin.back-row.Video Settings"></setting>
+        <setting type="string" name="skin.back-row.Music Settings"></setting>
+        <setting type="string" name="skin.back-row.Pictures Settings"></setting>
+        <setting type="string" name="skin.back-row.Weather Settings"></setting>
+        <setting type="string" name="skin.back-row.Network Settings"></setting>
+        <setting type="string" name="skin.back-row.System Settings"></setting>
+        <setting type="string" name="skin.back-row.Profile Settings"></setting>
+        <setting type="string" name="skin.metropolis.CustomBackground"></setting>
+        <setting type="string" name="skin.metropolis.CustomMovies"></setting>
+        <setting type="string" name="skin.metropolis.CustomTVShows"></setting>
+        <setting type="string" name="skin.metropolis.CustomVideos"></setting>
+        <setting type="string" name="skin.metropolis.CustomTrailers"></setting>
+        <setting type="string" name="skin.metropolis.CustomMusic"></setting>
+        <setting type="string" name="skin.metropolis.CustomPictures"></setting>
+        <setting type="string" name="skin.metropolis.CustomPrograms"></setting>
+        <setting type="string" name="skin.metropolis.CustomWeather"></setting>
+        <setting type="string" name="skin.metropolis.CustomSettings"></setting>
+        <setting type="string" name="skin.metropolis.CustomFavourites"></setting>
+        <setting type="string" name="skin.metropolis.CustomShutdown"></setting>
+        <setting type="string" name="skin.metropolis.CustomLogoff"></setting>
+        <setting type="string" name="skin.metropolis.CustomPlayDisc"></setting>
+        <setting type="string" name="skin.metropolis.Startup_Playlist_Path"></setting>
+        <setting type="string" name="skin.metropolis.LyricPath"></setting>
+        <setting type="string" name="skin.metropolis.SubtitlePath"></setting>
+    </skinsettings>
+</settings>
