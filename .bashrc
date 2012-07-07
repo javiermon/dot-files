@@ -79,5 +79,8 @@ alias emacs='emacs -nw'
 alias grep='grep --color=auto'
 
 # Use bash-completion, if available
-[[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
+[[ -f /usr/share/bash-completion/bash_completion ]] && \
     . /usr/share/bash-completion/bash_completion
+
+[[ -f /etc/bash-completion ]] && \
+    . /etc/bash-completion
