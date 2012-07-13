@@ -1,6 +1,9 @@
 ;; custom .el files:
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
+;; I hate tabs!
+(setq-default indent-tabs-mode nil)
+
 ;; utf-8
 (require 'un-define "un-define" t)
 (set-buffer-file-coding-system 'utf-8 'utf-8-unix)
