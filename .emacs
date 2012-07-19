@@ -16,3 +16,7 @@
 
 ;; python pylint, flymake:
 (require 'flymake-pylint)
+;; Underline errors instead of highlight
+(custom-set-faces
+ '(flymake-errline ((((class color)) (:underline "red"))))
+ '(flymake-warnline ((((class color)) (:underline "yellow")))))
