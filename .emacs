@@ -4,6 +4,9 @@
 ;; I hate tabs!
 (setq-default indent-tabs-mode nil)
 
+;; remove trailing whitespace
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
 ;; utf-8
 (require 'un-define "un-define" t)
 (set-buffer-file-coding-system 'utf-8 'utf-8-unix)
@@ -17,6 +20,6 @@
 ;; python pylint, flymake:
 (require 'flymake-pylint)
 ;; Underline errors instead of highlight
-(custom-set-faces
- '(flymake-errline ((((class color)) (:underline "red"))))
- '(flymake-warnline ((((class color)) (:underline "yellow")))))
+;;(custom-set-faces
+;; '(flymake-errline ((((class color)) (:underline "red"))))
+;; '(flymake-warnline ((((class color)) (:underline "yellow")))))
