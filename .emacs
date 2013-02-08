@@ -23,3 +23,6 @@
 ;;(custom-set-faces
 ;; '(flymake-errline ((((class color)) (:underline "red"))))
 ;; '(flymake-warnline ((((class color)) (:underline "yellow")))))
+
+;; c sane identation
+(setq c-default-style "linux" c-basic-offset 4)
