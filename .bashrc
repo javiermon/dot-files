@@ -84,3 +84,5 @@ alias grep='grep --color=auto'
 
 [[ -f /etc/bash-completion ]] && \
     . /etc/bash-completion
+
+export EDITOR=emacs
