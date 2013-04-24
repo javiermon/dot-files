@@ -26,3 +26,8 @@
 
 ;; c sane identation
 (setq c-default-style "linux" c-basic-offset 4)
+
+;; c/c++ switch between myfile.cc and myfile.h with C-c o
+(add-hook 'c-mode-common-hook
+  (lambda() 
+    (local-set-key  (kbd "C-c o") 'ff-find-other-file)))
