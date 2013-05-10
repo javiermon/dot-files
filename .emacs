@@ -29,8 +29,10 @@
 
 ;; cscope
 (require 'xcscope)
+;; Keybinding use "C-c s " as prefix
+;; use space for navigation in the cscope result buffer
 
 ;; c/c++ switch between myfile.cc and myfile.h with C-c o
 (add-hook 'c-mode-common-hook
-  (lambda() 
+  (lambda()
     (local-set-key  (kbd "C-c o") 'ff-find-other-file)))
