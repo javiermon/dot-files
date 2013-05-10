@@ -27,6 +27,9 @@
 ;; c sane identation
 (setq c-default-style "linux" c-basic-offset 4)
 
+;; cscope
+(require 'xcscope)
+
 ;; c/c++ switch between myfile.cc and myfile.h with C-c o
 (add-hook 'c-mode-common-hook
   (lambda() 
