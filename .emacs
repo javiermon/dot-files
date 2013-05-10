@@ -32,6 +32,9 @@
 ;; Keybinding use "C-c s " as prefix
 ;; use space for navigation in the cscope result buffer
 
+;; semantic mode
+(semantic-mode 1)
+
 ;; c/c++ switch between myfile.cc and myfile.h with C-c o
 (add-hook 'c-mode-common-hook
   (lambda()
