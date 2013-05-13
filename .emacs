@@ -39,3 +39,6 @@
 (add-hook 'c-mode-common-hook
   (lambda()
     (local-set-key  (kbd "C-c o") 'ff-find-other-file)))
+
+;; find file in tags:
+(require 'find-file-in-tags)
