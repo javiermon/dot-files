@@ -28,9 +28,7 @@
 (setq c-default-style "linux" c-basic-offset 4)
 
 ;; cscope
-(require 'xcscope)
-;; Keybinding use "C-c s " as prefix
-;; use space for navigation in the cscope result buffer
+;; (require 'ascope)
 
 ;; semantic mode
 (semantic-mode 1)
