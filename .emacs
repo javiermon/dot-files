@@ -40,3 +40,6 @@
 
 ;; find file in tags:
 (require 'find-file-in-tags)
+
+;; find file in repository:
+(require 'find-file-in-repository)
