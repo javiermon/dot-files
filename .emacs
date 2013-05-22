@@ -3,6 +3,9 @@
 ;; (if (functionp 'menu-bar-mode) (menu-bar-mode -1))
 ;; (if (functionp 'scroll-bar-mode) (scroll-bar-mode -1))
 
+;; no welcome msg
+(setq inhibit-startup-message t)
+
 ;; custom .el files:
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
