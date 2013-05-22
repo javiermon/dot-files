@@ -1,3 +1,8 @@
+;; disable toolbar, menubar, scrollbar
+;; (if (functionp 'tool-bar-mode) (tool-bar-mode -1))
+;; (if (functionp 'menu-bar-mode) (menu-bar-mode -1))
+;; (if (functionp 'scroll-bar-mode) (scroll-bar-mode -1))
+
 ;; custom .el files:
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
