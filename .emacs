@@ -12,6 +12,9 @@
 ;; I hate tabs!
 (setq-default indent-tabs-mode nil)
 
+;; show column number
+(column-number-mode 1)
+
 ;; remove trailing whitespace
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
