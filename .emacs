@@ -40,6 +40,14 @@
 
 ;; cscope
 (require 'xcscope)
+;; (setq cscope-do-not-update-database t)
+
+;; close cscope buffer after pop-mark
+(defun cscope-pop-mark-and-close ()
+  "close the *cscope* buffer when we pop the mark"
+  (interactive)
+  (kill-buffer "*cscope*")
+  (cscope-pop-mark))
 
 ;; semantic mode
 (semantic-mode 1)
