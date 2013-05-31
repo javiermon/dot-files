@@ -28,6 +28,10 @@
 ;; mark selection
 (setq transient-mark-mode t)
 
+;; smart-tab
+(require 'smart-tab)
+(global-smart-tab-mode 1)
+
 ;; python pylint, flymake:
 (require 'flymake-pylint)
 ;; Underline errors instead of highlight
