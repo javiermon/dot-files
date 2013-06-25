@@ -29,8 +29,8 @@
 (setq transient-mark-mode t)
 
 ;; smart-tab
-(require 'smart-tab)
-(global-smart-tab-mode 1)
+;; (require 'smart-tab)
+;; (global-smart-tab-mode 1)
 
 ;; python pylint, flymake:
 (require 'flymake-pylint)
