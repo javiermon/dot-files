@@ -77,6 +77,8 @@ fi
 #alias l='ls -CF'
 alias emacs='emacs -nw'
 alias grep='grep --color=auto'
+# fix 'screen-256color': unknown terminal type. with tmux + ssh
+alias ssh='TERM=xterm ssh'
 
 # Use bash-completion, if available
 [[ -f /usr/share/bash-completion/bash_completion ]] && \
