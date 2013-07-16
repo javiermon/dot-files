@@ -1,4 +1,5 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
+export TERM=xterm-256color
 
 #export PS1='\h:\w\$ '
 export PS1='\[\e[0;31m\][\u@\h \W]\[\033[00m\]\$ '
