@@ -22,6 +22,8 @@ if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)
 fi
 
+export TERM=xterm-256color
+
 # set a fancy prompt (non-color, unless we know we "want" color)
 #case "$TERM" in
 #xterm-color)
@@ -75,10 +77,8 @@ fi
 #alias ll='ls -l'
 #alias la='ls -A'
 #alias l='ls -CF'
-alias emacs='TERM=xterm-256color emacs -nw'
+alias emacs='emacs -nw'
 alias grep='grep --color=auto'
-# fix 'screen-256color': unknown terminal type. with tmux + ssh
-alias ssh='TERM=xterm ssh'
 
 # Use bash-completion, if available
 [[ -f /usr/share/bash-completion/bash_completion ]] && \
@@ -88,6 +88,3 @@ alias ssh='TERM=xterm ssh'
     . /etc/bash-completion
 
 export EDITOR=emacs
-# cvs assia:
-export CVSROOT=:ext:jmonteagudo@cvs.finesse.assia-inc.com:/cvs
-export CVS_RSH=/usr/bin/ssh
