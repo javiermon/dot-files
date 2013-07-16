@@ -18,6 +18,11 @@
 ;; show column number
 (column-number-mode 1)
 
+;; turn on paren match highlighting
+(show-paren-mode 1)
+;; highlight entire bracket expression
+;; (setq show-paren-style 'expression)
+
 ;; remove trailing whitespace
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
