@@ -75,7 +75,7 @@ fi
 #alias ll='ls -l'
 #alias la='ls -A'
 #alias l='ls -CF'
-alias emacs='TERM=xterm emacs -nw'
+alias emacs='TERM=xterm-256color emacs -nw'
 alias grep='grep --color=auto'
 # fix 'screen-256color': unknown terminal type. with tmux + ssh
 alias ssh='TERM=xterm ssh'
