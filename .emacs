@@ -12,6 +12,9 @@
 ;; I hate tabs!
 (setq-default indent-tabs-mode nil)
 
+;; theme
+(load-theme 'tango-dark t)
+
 ;; show column number
 (column-number-mode 1)
 
