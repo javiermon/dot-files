@@ -64,6 +64,9 @@
 
 (define-key ctl-x-4-map "t" 'toggle-window-split)
 
+;; buffer move
+(require 'buffer-move)
+
 ;; smart-tab
 ;; (require 'smart-tab)
 ;; (global-smart-tab-mode 1)
