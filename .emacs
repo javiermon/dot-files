@@ -13,8 +13,8 @@
 (setq-default indent-tabs-mode nil)
 
 ;; theme
-;; disable for now as it adds trailing ws on copy2clipboard
-;; (load-theme 'tango-dark t)
+(when (display-graphic-p)
+  (load-theme 'tango-dark t))
 
 ;; show column number
 (column-number-mode 1)
