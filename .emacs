@@ -101,6 +101,9 @@
   (lambda()
     (local-set-key  (kbd "C-c o") 'ff-find-other-file)))
 
+;; load TAGS file from current directory
+(setq tags-file-name (concat default-directory "TAGS"))
+
 ;; find file in tags:
 (require 'find-file-in-tags)
 
