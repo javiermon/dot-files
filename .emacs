@@ -116,6 +116,9 @@
 
 (define-key ctl-x-4-map "t" 'tag-and-scope)
 
+;; reload tags without asking
+(setq tags-revert-without-query t)
+
 ;; find file in tags:
 (require 'find-file-in-tags)
 
