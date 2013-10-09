@@ -3,6 +3,9 @@
 ;; (if (functionp 'menu-bar-mode) (menu-bar-mode -1))
 ;; (if (functionp 'scroll-bar-mode) (scroll-bar-mode -1))
 
+;; start directory
+(setq emacs-start-directory default-directory)
+
 ;; no welcome msg
 (setq inhibit-startup-message t)
 
@@ -63,7 +66,7 @@
           (select-window first-win)
           (if this-win-2nd (other-window 1))))))
 
-(define-key ctl-x-4-map "t" 'toggle-window-split)
+(define-key ctl-x-4-map "s" 'toggle-window-split)
 
 ;; buffer move
 (require 'buffer-move)
@@ -102,7 +105,16 @@
     (local-set-key  (kbd "C-c o") 'ff-find-other-file)))
 
 ;; load TAGS file from current directory
-(setq tags-file-name (concat default-directory "TAGS"))
+(setq tags-file-name (concat emacs-start-directory "TAGS"))
+
+;; recreate TAGS && cscope
+(defun tag-and-cscope ()
+  "ctags & cscope on startup directory"
+  (interactive)
+  (setq tag-cscope-command (format "(cd %s && ctags -Re && cscope-indexer -r 2>&1 > /dev/null &)" emacs-start-directory))
+  (shell-command tag-cscope-command nil nil) )
+
+(define-key ctl-x-4-map "t" 'tag-and-scope)
 
 ;; find file in tags:
 (require 'find-file-in-tags)
