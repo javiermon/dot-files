@@ -1,6 +1,7 @@
 #!/bin/bash
 # SysLogin
 
+export LC_ALL="C"
 echo -ne "Welcome to" `awk '{print $1, $3}' /etc/redhat-release` "($OSTYPE" `uname -r`" $HOSTTYPE)\n\n"
 echo -e " * Documentation: http://docs.fedoraproject.org/\n"
 echo -ne "  System information as of" `date` "\n\n"
