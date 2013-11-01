@@ -111,8 +111,9 @@
 (defun tag-and-cscope ()
   "ctags & cscope on startup directory"
   (interactive)
-  (setq tag-cscope-command (format "(cd %s && ctags -Re && cscope-indexer -r 2>&1 > /dev/null &)" emacs-start-directory))
-  (shell-command tag-cscope-command nil nil) )
+  (setq tag-cscope-command (format "cd %s && ctags -Re && cscope-indexer -r" emacs-start-directory))
+  (save-window-excursion
+    (async-shell-command tag-cscope-command)))
 
 (define-key ctl-x-4-map "t" 'tag-and-scope)
 
