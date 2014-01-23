@@ -1,7 +1,12 @@
-;; disable toolbar, menubar, scrollbar
-;; (if (functionp 'tool-bar-mode) (tool-bar-mode -1))
-;; (if (functionp 'menu-bar-mode) (menu-bar-mode -1))
-;; (if (functionp 'scroll-bar-mode) (scroll-bar-mode -1))
+;; disable toolbar, menubar, scrollbar, apply theme
+;; only run if Emacs is run in an X window
+(when (display-graphic-p)
+  (scroll-bar-mode -1)                ; disable scroll bars
+  (tool-bar-mode -1)                  ; disable tool bar
+  (menu-bar-mode -1)                  ; disable tool bar
+  (put 'scroll-left 'disabled nil)    ; right scroll bar
+  (load-theme 'tango-dark t)          ; dark theme
+)
 
 ;; start directory
 (setq emacs-start-directory default-directory)
@@ -14,10 +19,6 @@
 
 ;; I hate tabs!
 (setq-default indent-tabs-mode nil)
-
-;; theme
-(when (display-graphic-p)
-  (load-theme 'tango-dark t))
 
 ;; show column number
 (column-number-mode 1)
