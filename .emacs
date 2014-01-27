@@ -103,7 +103,9 @@
 ;; c/c++ switch between myfile.cc and myfile.h with C-c o
 (add-hook 'c-mode-common-hook
   (lambda()
-    (local-set-key  (kbd "C-c o") 'ff-find-other-file)))
+    (local-set-key  (kbd "C-c o") 'ff-find-other-file)
+    ;; hide/show mode for code folding
+    (hs-minor-mode 1)))
 
 ;; load TAGS file from current directory
 (setq tags-file-name (concat emacs-start-directory "TAGS"))
