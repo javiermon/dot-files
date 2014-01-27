@@ -105,6 +105,7 @@
   (lambda()
     (local-set-key  (kbd "C-c o") 'ff-find-other-file)
     ;; hide/show mode for code folding
+    (hide-ifdef-mode 1)
     (hs-minor-mode 1)))
 
 ;; load TAGS file from current directory
