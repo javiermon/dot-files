@@ -98,7 +98,7 @@
   (cscope-pop-mark))
 
 ;; semantic mode
-(semantic-mode 1)
+;; (semantic-mode 1)
 
 ;; c/c++ switch between myfile.cc and myfile.h with C-c o
 (add-hook 'c-mode-common-hook
