@@ -88,3 +88,5 @@ alias grep='grep --color=auto'
     . /etc/bash-completion
 
 export EDITOR=emacs
+# Remove trailing whitespaces when copy-pasting to X11.                                                                                                                   
+unset RPS1
