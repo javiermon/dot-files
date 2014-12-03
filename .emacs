@@ -72,6 +72,12 @@
 ;; buffer move
 (require 'buffer-move)
 
+;; fill-column-indicator
+(require 'fill-column-indicator)
+(setq-default fci-rule-column 80)
+(define-globalized-minor-mode global-fci-mode fci-mode (lambda () (fci-mode 1)))
+;; (global-fci-mode 1)
+
 ;; smart-tab
 ;; (require 'smart-tab)
 ;; (global-smart-tab-mode 1)
