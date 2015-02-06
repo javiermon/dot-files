@@ -56,3 +56,8 @@ zle -N zle-line-finish
 # colors and PS1
 autoload -U colors && colors
 PS1="%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[yellow]%}%c %{$reset_color%}%% "
+
+# syslogin info
+if [ -f ~/.syslogin ]; then
+    ~/.syslogin
+fi
