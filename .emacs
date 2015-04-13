@@ -135,3 +135,7 @@
 
 ;; find file in repository:
 (require 'find-file-in-repository)
+
+;; Git
+(require 'git)
+(require 'git-blame)
