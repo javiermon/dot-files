@@ -19,6 +19,10 @@
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize) ;; You might already have this line
 
+;; auto-complete
+(require 'auto-complete)
+(global-auto-complete-mode t)
+
 ;; start directory
 (setq emacs-start-directory default-directory)
 
