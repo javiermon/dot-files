@@ -23,6 +23,11 @@
 (require 'auto-complete)
 (global-auto-complete-mode t)
 
+;; anything
+(require 'anything)
+(require 'anything-match-plugin)
+(require 'anything-config)
+
 ;; start directory
 (setq emacs-start-directory default-directory)
 
