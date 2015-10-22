@@ -5,10 +5,19 @@
 ;; No splash screen
 (setq inhibit-startup-message t)
 
+;; start directory
+(setq emacs-start-directory default-directory)
+
+;; custom .el files:
+(add-to-list 'load-path "~/.emacs.d/lisp/")
+;; custom themes:
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+;; custom tango-dark theme:
+(load-theme 'tango-darker t)          ; dark theme
+
 ;; only run if Emacs is run in an X window
 (when (display-graphic-p)
   (put 'scroll-left 'disabled nil)    ; right scroll bar
-  (load-theme 'tango-dark t)          ; dark theme
 )
 
 ;; MELPA Stable
@@ -28,17 +37,8 @@
 
 ;; anything
 (require 'anything)
-(require 'anything-match-plugin)
-(require 'anything-config)
-
-;; start directory
-(setq emacs-start-directory default-directory)
-
-;; no welcome msg
-(setq inhibit-startup-message t)
-
-;; custom .el files:
-(add-to-list 'load-path "~/.emacs.d/lisp/")
+;;(require 'anything-match-plugin)
+;;(require 'anything-config)
 
 ;; I hate tabs!
 (setq-default indent-tabs-mode nil)
@@ -61,6 +61,7 @@
 (set-default-coding-systems 'utf-8-unix)
 (prefer-coding-system 'utf-8-unix)
 (set-default default-buffer-file-coding-system 'utf-8-unix)
+
 ;; mark selection
 (setq transient-mark-mode t)
 
@@ -162,3 +163,17 @@
 ;; Git
 (require 'git)
 (require 'git-blame)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("ffd516378d0a74228c704fd53308aa953398ba9b988d9895f8a1b7f7a1121070" "c22c6c8806e9ea14eb0f72e225ccd6ba93263bfee6234cbed551ce477ef572d0" "ab04c00a7e48ad784b52f34aa6bfa1e80d0c3fcacc50e1189af3651013eb0d58" "a0feb1322de9e26a4d209d1cfa236deaf64662bb604fa513cca6a057ddf0ef64" default))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
