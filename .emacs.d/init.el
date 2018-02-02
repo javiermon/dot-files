@@ -121,6 +121,8 @@
 
 ;; c sane identation
 (setq c-default-style "linux" c-basic-offset 4)
+;; use an indentation width of two spaces
+(setq lua-indent-level 2)
 
 ;; cscope
 (require 'xcscope)
@@ -176,10 +178,10 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("ffd516378d0a74228c704fd53308aa953398ba9b988d9895f8a1b7f7a1121070" "c22c6c8806e9ea14eb0f72e225ccd6ba93263bfee6234cbed551ce477ef572d0" "ab04c00a7e48ad784b52f34aa6bfa1e80d0c3fcacc50e1189af3651013eb0d58" "a0feb1322de9e26a4d209d1cfa236deaf64662bb604fa513cca6a057ddf0ef64" default)))
+    ("3bb602b6160f1d600344e9cc4ffe86fddef70c26bc1b7b90b13255f8f5c98031" "7356632cebc6a11a87bc5fcffaa49bae528026a78637acd03cae57c091afd9b9" "04dd0236a367865e591927a3810f178e8d33c372ad5bfef48b5ce90d4b476481" "ffd516378d0a74228c704fd53308aa953398ba9b988d9895f8a1b7f7a1121070" "c22c6c8806e9ea14eb0f72e225ccd6ba93263bfee6234cbed551ce477ef572d0" "ab04c00a7e48ad784b52f34aa6bfa1e80d0c3fcacc50e1189af3651013eb0d58" "a0feb1322de9e26a4d209d1cfa236deaf64662bb604fa513cca6a057ddf0ef64" default)))
  '(package-selected-packages
    (quote
-    (zerodark-theme auto-complete anything alect-themes))))
+    (pandoc-mode markdown-mode zerodark-theme auto-complete anything alect-themes))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
