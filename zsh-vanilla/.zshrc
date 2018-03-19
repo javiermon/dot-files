@@ -90,3 +90,6 @@ PROMPT="%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[yellow]%}%c %{$rese
 if [ -f ~/.syslogin ]; then
     ~/.syslogin
 fi
+
+# trim trailing whitespace on x11 copy-paste
+unset RPS1
