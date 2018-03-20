@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/jmonteagudo/.oh-my-zsh
+export ZSH=/home/jmonteagudo/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -58,13 +58,20 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(
-  git
-)
+plugins=(svn git)
 
+# Load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+# theme tweaks:
+PROMPT='${ret_status} %{$fg[cyan]%}%c%{$reset_color%} $(svn_prompt_info)$(git_prompt_info)%{$reset_color%}'
+# svn support:
+SVN_SHOW_BRANCH=true
+ZSH_THEME_SVN_PROMPT_PREFIX="%{$fg_bold[blue]%}svn:(%{$fg[red]%}"
+ZSH_THEME_SVN_PROMPT_SUFFIX="%{$reset_color%}"
+ZSH_THEME_SVN_PROMPT_DIRTY="%{$reset_color%}%{$fg_bold[blue]%}) %{$fg[yellow]%}✗ "
+ZSH_THEME_SVN_PROMPT_CLEAN="%{$reset_color%}%{$fg_bold[blue]%}) "
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
