@@ -323,6 +323,17 @@ before packages are loaded. If you are unsure, you should try in setting them in
   (setq-default default-buffer-file-coding-system 'utf-8-unix)
   (set-default-coding-systems 'utf-8-unix)
   (prefer-coding-system 'utf-8-unix)
+  ;; disable auto-indentation in paste
+  ;; (global-set-key "\C-j" 'newline)
+  ;; start directory
+  (setq emacs-start-directory default-directory)
+  ;; recreate TAGS && cscope
+  (defun tag-and-cscope ()
+    "ctags & cscope on startup directory"
+    (interactive)
+    (setq tag-cscope-command (format "cd %s && ctags -Re && cscope-indexer -r" emacs-start-directory))
+    (save-window-excursion
+      (async-shell-command tag-cscope-command)))
 
   ;; Avoid background theme so x11 copy-paste works in terminal windows
   (when (not (display-graphic-p))
