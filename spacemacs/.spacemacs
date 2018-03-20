@@ -308,19 +308,37 @@ executes.
  This function is mostly useful for variables that need to be set
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
+  ;; I hate tabs!
+  (setq-default indent-tabs-mode nil)
+  ;; c sane identation
+  (setq-default c-default-style "linux")
+  (setq-default c-basic-offset 4)
+  (setq-default tab-width 4)
+  ;; lua sane identation
+  (setq-default lua-indent-level 2)
+  ;; utf-8
+  ;; (require 'un-define "un-define" t)
+  ;; (set-buffer-file-coding-system 'utf-8 'utf-8-unix)
+  (setq-default buffer-file-coding-system 'utf-8-unix)
+  (setq-default default-buffer-file-coding-system 'utf-8-unix)
+  (set-default-coding-systems 'utf-8-unix)
+  (prefer-coding-system 'utf-8-unix)
+
   ;; Avoid background theme so x11 copy-paste works in terminal windows
-  (custom-set-variables '(spacemacs-theme-custom-colors
-                          '((bg1 . nil)
-                            (bg2 . nil)
-                            (bg3 . nil)
-                            (bg4 . nil)
-                            (head1-bg . nil)
-                            (head2-bg . nil)
-                            (head3-bg . nil)
-                            (head4-bg . nil)
-                            (comment-bg . nil)
-                            )))
-  )
+  (when (not (display-graphic-p))
+    (custom-set-variables
+     '(spacemacs-theme-custom-colors
+       '((bg1 . nil)
+         (bg2 . nil)
+         (bg3 . nil)
+         (bg4 . nil)
+         (head1-bg . nil)
+         (head2-bg . nil)
+         (head3-bg . nil)
+         (head4-bg . nil)
+         (comment-bg . nil)
+         )))
+    ))
 
 (defun dotspacemacs/user-config ()
   "Configuration function for user code.
@@ -331,23 +349,13 @@ explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   ;; Make copy/paste work with the mouse in X11 terminals
   (xterm-mouse-mode -1)
-  ;; I hate tabs!
-  (setq-default indent-tabs-mode nil)
-  ;; (setq-default tab-width 4)
-  ;; c sane identation
-  (setq-default
-   c-default-style "linux"
-   c-basic-offset 4)
-  ;; lua sane identation
-  (setq lua-indent-level 2)
-  ;; utf-8
-  ;; (require 'un-define "un-define" t)
-  ;; (set-buffer-file-coding-system 'utf-8 'utf-8-unix)
-  (set-default buffer-file-coding-system 'utf-8-unix)
-  (set-default-coding-systems 'utf-8-unix)
-  (prefer-coding-system 'utf-8-unix)
-  (set-default default-buffer-file-coding-system 'utf-8-unix)
-  )
+  (setq spacemacs-large-file-modes-list
+        (quote
+         (archive-mode tar-mode
+          tags-table-mode jka-compr git-commit-mode
+          image-mode doc-view-mode doc-view-mode-maybe
+          ebrowse-tree-mode pdf-view-mode))
+  ))
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
@@ -356,26 +364,7 @@ you should place your code here."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-safe-themes
-   (quote
-    ("bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "1db337246ebc9c083be0d728f8d20913a0f46edc0a00277746ba411c149d7fe5" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" default)))
- '(package-selected-packages
-   (quote
-    (counsel-etags insert-shebang fish-mode company-shell web-beautify livid-mode skewer-mode simple-httpd json-mode json-snatcher json-reformat js2-refactor multiple-cursors js2-mode js-doc company-tern tern coffee-mode flycheck-pos-tip pos-tip flycheck smeargle orgit magit-gitflow helm-gitignore gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link evil-magit magit magit-popup git-commit ghub let-alist with-editor helm-cscope xcscope yapfify pyvenv pytest pyenv-mode py-isort pip-requirements lua-mode live-py-mode hy-mode dash-functional helm-pydoc disaster cython-mode company-c-headers company-anaconda cmake-mode clang-format anaconda-mode pythonic unfill mwim helm-company helm-c-yasnippet fuzzy company-statistics company auto-yasnippet yasnippet ac-ispell auto-complete powerline spinner hydra parent-mode projectile pkg-info epl flx smartparens iedit anzu evil goto-chg undo-tree highlight f dash s bind-map bind-key packed helm avy helm-core popup async zenburn-theme zen-and-art-theme white-sand-theme underwater-theme ujelly-theme twilight-theme twilight-bright-theme twilight-anti-bright-theme toxi-theme tao-theme tangotango-theme tango-plus-theme tango-2-theme sunny-day-theme sublime-themes subatomic256-theme subatomic-theme spacegray-theme soothe-theme solarized-theme soft-stone-theme soft-morning-theme soft-charcoal-theme smyx-theme seti-theme reverse-theme rebecca-theme railscasts-theme purple-haze-theme professional-theme planet-theme phoenix-dark-pink-theme phoenix-dark-mono-theme organic-green-theme omtose-phellack-theme oldlace-theme occidental-theme obsidian-theme noctilux-theme naquadah-theme mustang-theme monokai-theme monochrome-theme molokai-theme moe-theme minimal-theme material-theme majapahit-theme madhat2r-theme lush-theme light-soap-theme jbeans-theme jazz-theme ir-black-theme inkpot-theme heroku-theme hemisu-theme hc-zenburn-theme gruvbox-theme gruber-darker-theme grandshell-theme gotham-theme gandalf-theme flatui-theme flatland-theme farmhouse-theme exotica-theme espresso-theme dracula-theme django-theme darktooth-theme autothemer darkokai-theme darkmine-theme darkburn-theme dakrone-theme cyberpunk-theme color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized clues-theme cherry-blossom-theme busybee-theme bubbleberry-theme birds-of-paradise-plus-theme badwolf-theme apropospriate-theme anti-zenburn-theme ample-zen-theme ample-theme alect-themes afternoon-theme ws-butler winum which-key volatile-highlights vi-tilde-fringe uuidgen use-package toc-org spaceline restart-emacs request rainbow-delimiters popwin persp-mode pcre2el paradox org-plus-contrib org-bullets open-junk-file neotree move-text macrostep lorem-ipsum linum-relative link-hint indent-guide hungry-delete hl-todo highlight-parentheses highlight-numbers highlight-indentation helm-themes helm-swoop helm-projectile helm-mode-manager helm-make helm-flx helm-descbinds helm-ag google-translate golden-ratio flx-ido fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-args evil-anzu eval-sexp-fu elisp-slime-nav dumb-jump diminish define-word column-enforce-mode clean-aindent-mode auto-highlight-symbol auto-compile aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line)))
- '(spacemacs-large-file-modes-list
-   (quote
-    (archive-mode tar-mode tags-table-mode jka-compr git-commit-mode image-mode doc-view-mode doc-view-mode-maybe ebrowse-tree-mode pdf-view-mode)))
- '(spacemacs-theme-custom-colors
-   (quote
-    ((bg1)
-     (bg2)
-     (bg3)
-     (bg4)
-     (head1-bg)
-     (head2-bg)
-     (head3-bg)
-     (head4-bg)
-     (comment-bg)))))
+ )
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
