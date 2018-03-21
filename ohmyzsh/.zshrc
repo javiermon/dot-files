@@ -84,6 +84,7 @@ ZSH_THEME_SVN_PROMPT_CLEAN="%{$reset_color%}%{$fg_bold[blue]%}) "
 # else
 #   export EDITOR='mvim'
 # fi
+export EDITOR='emacs -nw'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -101,8 +102,6 @@ ZSH_THEME_SVN_PROMPT_CLEAN="%{$reset_color%}%{$fg_bold[blue]%}) "
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias emacs='emacs -nw'
 alias grep='grep --color=auto'
-# editor
-export EDITOR=emacs
 
 # syslogin info
 if [ -f ~/.syslogin ]; then
