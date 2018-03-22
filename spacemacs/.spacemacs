@@ -134,8 +134,7 @@ values."
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
-   dotspacemacs-themes '(zenburn
-                         spacemacs-dark
+   dotspacemacs-themes '(spacemacs-dark
                          spacemacs-light)
    ;; If non nil the cursor color matches the state color in GUI Emacs.
    dotspacemacs-colorize-cursor-according-to-state t
@@ -323,17 +322,17 @@ before packages are loaded. If you are unsure, you should try in setting them in
          (head4-bg . nil)
          (comment-bg . nil)
          )))
-    (defvar zenburn-override-colors-alist
-      '(
-        ("zenburn-bg-2"  . nil)
-        ("zenburn-bg-1"  . nil)
-        ("zenburn-bg-05" . nil)
-        ("zenburn-bg"    . nil)
-        ("zenburn-bg+05" . nil)
-        ("zenburn-bg+1"  . nil)
-        ("zenburn-bg+2"  . nil)
-        ("zenburn-bg+3"  . nil)
-        ))
+    ;;(defvar zenburn-override-colors-alist
+    ;;  '(
+    ;;    ("zenburn-bg-2"  . nil)
+    ;;    ("zenburn-bg-1"  . nil)
+    ;;    ("zenburn-bg-05" . nil)
+    ;;    ("zenburn-bg"    . nil)
+    ;;    ("zenburn-bg+05" . nil)
+    ;;    ("zenburn-bg+1"  . nil)
+    ;;    ("zenburn-bg+2"  . nil)
+    ;;    ("zenburn-bg+3"  . nil)
+    ;;    ))
     )
   ;; I hate tabs!
   (setq-default indent-tabs-mode nil)
