@@ -107,3 +107,6 @@ alias grep='grep --color=auto'
 if [ -f ~/.syslogin ]; then
     ~/.syslogin
 fi
+
+# do not share history between different shell sessions
+unsetopt share_history
