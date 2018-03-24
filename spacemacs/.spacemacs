@@ -324,8 +324,7 @@ before packages are loaded. If you are unsure, you should try in setting them in
          (comment-bg . nil)
          )))
     (defvar zenburn-override-colors-alist
-      '(
-        ("zenburn-bg"    . nil)
+      '(("zenburn-bg"    . nil)
         ;; ("zenburn-bg-2"  . nil)
         ;; ("zenburn-bg-1"  . nil)
         ;; ("zenburn-bg-05" . nil)
