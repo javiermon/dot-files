@@ -314,14 +314,14 @@ before packages are loaded. If you are unsure, you should try in setting them in
     (custom-set-variables
      '(spacemacs-theme-custom-colors
        '((bg1 . nil)
-         (bg2 . nil)
-         (bg3 . nil)
-         (bg4 . nil)
-         (head1-bg . nil)
-         (head2-bg . nil)
-         (head3-bg . nil)
-         (head4-bg . nil)
          (comment-bg . nil)
+         ;;(bg2 . nil)
+         ;;(bg3 . nil)
+         ;;(bg4 . nil)
+         ;;(head1-bg . nil)
+         ;;(head2-bg . nil)
+         ;;(head3-bg . nil)
+         ;;(head4-bg . nil)
          )))
     (defvar zenburn-override-colors-alist
       '(("zenburn-bg"    . nil)
@@ -413,6 +413,7 @@ you should place your code here."
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
