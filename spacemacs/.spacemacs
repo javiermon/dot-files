@@ -134,9 +134,9 @@ values."
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
-   dotspacemacs-themes '(zenburn
-                         spacemacs-dark
-                         spacemacs-light)
+   dotspacemacs-themes '(spacemacs-dark
+                         spacemacs-light
+                         zenburn)
    ;; If non nil the cursor color matches the state color in GUI Emacs.
    dotspacemacs-colorize-cursor-according-to-state t
    ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
@@ -310,30 +310,30 @@ executes.
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
   ;; Avoid background theme so x11 copy-paste works in terminal windows
-  (when (not (display-graphic-p))
-    (custom-set-variables
-     '(spacemacs-theme-custom-colors
-       '((bg1 . nil)
-         (comment-bg . nil)
-         ;;(bg2 . nil)
-         ;;(bg3 . nil)
-         ;;(bg4 . nil)
-         ;;(head1-bg . nil)
-         ;;(head2-bg . nil)
-         ;;(head3-bg . nil)
-         ;;(head4-bg . nil)
-         )))
-    (defvar zenburn-override-colors-alist
-      '(("zenburn-bg"    . nil)
-        ;; ("zenburn-bg-2"  . nil)
-        ;; ("zenburn-bg-1"  . nil)
-        ;; ("zenburn-bg-05" . nil)
-        ;; ("zenburn-bg+05" . nil)
-        ;; ("zenburn-bg+1"  . nil)
-        ;; ("zenburn-bg+2"  . nil)
-        ;; ("zenburn-bg+3"  . nil)
-        ))
-    )
+  ;;(when (not (display-graphic-p))
+  ;;   (custom-set-variables
+  ;;    '(spacemacs-theme-custom-colors
+  ;;      '((bg1 . nil)
+  ;;        (comment-bg . nil)
+  ;;        ;;(bg2 . nil)
+  ;;        ;;(bg3 . nil)
+  ;;        ;;(bg4 . nil)
+  ;;        ;;(head1-bg . nil)
+  ;;        ;;(head2-bg . nil)
+  ;;        ;;(head3-bg . nil)
+  ;;        ;;(head4-bg . nil)
+  ;;        )))
+  ;;   (defvar zenburn-override-colors-alist
+  ;;     '(("zenburn-bg"    . nil)
+  ;;       ;; ("zenburn-bg-2"  . nil)
+  ;;       ;; ("zenburn-bg-1"  . nil)
+  ;;       ;; ("zenburn-bg-05" . nil)
+  ;;       ;; ("zenburn-bg+05" . nil)
+  ;;       ;; ("zenburn-bg+1"  . nil)
+  ;;       ;; ("zenburn-bg+2"  . nil)
+  ;;       ;; ("zenburn-bg+3"  . nil)
+  ;;       ))
+  ;;   )
   ;; I hate tabs!
   (setq-default indent-tabs-mode nil)
   ;; c sane identation
@@ -396,7 +396,7 @@ This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   ;; Make copy/paste work with the mouse in X11 terminals
-  (xterm-mouse-mode -1)
+  ;; (xterm-mouse-mode -1)
   (setq spacemacs-large-file-modes-list
         (quote
          (archive-mode tar-mode
@@ -412,6 +412,15 @@ you should place your code here."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
+ '(evil-want-Y-yank-to-eol nil)
+ '(package-selected-packages
+   (quote
+    (yapfify ws-butler winum which-key web-beautify volatile-highlights vi-tilde-fringe uuidgen use-package unfill toc-org spaceline powerline smeargle restart-emacs rainbow-delimiters pyvenv pytest pyenv-mode py-isort popwin pip-requirements persp-mode pcre2el paradox spinner orgit org-plus-contrib org-bullets open-junk-file neotree mwim move-text magit-gitflow magit-popup macrostep lua-mode lorem-ipsum livid-mode skewer-mode simple-httpd live-py-mode linum-relative link-hint json-mode json-snatcher json-reformat js2-refactor multiple-cursors js2-mode js-doc insert-shebang indent-guide hydra lv hy-mode hungry-delete hl-todo highlight-parentheses highlight-numbers parent-mode highlight-indentation helm-themes helm-swoop helm-pydoc helm-projectile projectile helm-mode-manager helm-make helm-gitignore request helm-flx helm-descbinds helm-cscope xcscope helm-company helm-c-yasnippet helm-ag google-translate golden-ratio gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link fuzzy flycheck-pos-tip pos-tip flycheck pkg-info epl flx-ido flx fish-mode fill-column-indicator fancy-battery eyebrowse expand-region evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist highlight evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-magit magit transient git-commit with-editor evil-lisp-state smartparens evil-indent-plus evil-iedit-state iedit evil-exchange evil-escape evil-ediff evil-args evil-anzu anzu evil goto-chg undo-tree eval-sexp-fu elisp-slime-nav dumb-jump disaster diminish define-word cython-mode company-tern dash-functional tern company-statistics company-shell company-c-headers company-anaconda company column-enforce-mode coffee-mode cmake-mode clean-aindent-mode clang-format bind-map bind-key auto-yasnippet yasnippet auto-highlight-symbol auto-compile packed anaconda-mode pythonic f dash s aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line helm avy helm-core async ac-ispell auto-complete popup zenburn-theme)))
+ ;; Transparent background:
+ ;; '(spacemacs-theme-custom-colors (quote ((bg1) (comment-bg))))
  )
 
 (custom-set-faces
