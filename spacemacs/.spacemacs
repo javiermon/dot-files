@@ -46,6 +46,7 @@ This function should only modify configuration layer settings."
      emacs-lisp
      git
      (c-c++ :variables c-c++-enable-clang-support t)
+     syntax-checking
      ;; lsp
      ;; markdown
      multiple-cursors
@@ -54,7 +55,6 @@ This function should only modify configuration layer settings."
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
      ;; spell-checking
-     ;; syntax-checking
      ;; version-control
      treemacs
      )
