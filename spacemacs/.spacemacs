@@ -66,7 +66,7 @@ This function should only modify configuration layer settings."
    ;; To use a local version of a package, use the `:location' property:
    ;; '(your-package :location "~/path/to/your-package/")
    ;; Also include the dependencies as they will not be resolved automatically.
-   dotspacemacs-additional-packages '( irony flycheck-irony )
+   dotspacemacs-additional-packages '()
 
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
@@ -496,15 +496,6 @@ before packages are loaded."
   (setq-default default-buffer-file-coding-system 'utf-8-unix)
   (set-default-coding-systems 'utf-8-unix)
   (prefer-coding-system 'utf-8-unix)
-  ;; company-irony
-  ;; (require 'irony)
-  (add-hook 'c++-mode-hook 'irony-mode)
-  (add-hook 'c-mode-hook 'irony-mode)
-  (add-hook 'objc-mode-hook 'irony-mode)
-  (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
-  ;; (require 'flycheck-irony)
-  (eval-after-load 'flycheck
-    '(add-hook 'flycheck-mode-hook #'flycheck-irony-setup))
   ;; switch horizontal window split to vertical and viceversa
   (defun toggle-window-split ()
     (interactive)
@@ -535,13 +526,6 @@ before packages are loaded."
   ;; (global-set-key "\C-j" 'newline)
   ;; start directory
   (setq emacs-start-directory default-directory)
-  ;; recreate TAGS && cscope
-  (defun tag-and-cscope ()
-    "ctags & cscope on startup directory"
-    (interactive)
-    (setq tag-cscope-command (format "cd %s && ctags -Re && cscope-indexer -r" emacs-start-directory))
-    (save-window-excursion
-      (async-shell-command tag-cscope-command)))
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
