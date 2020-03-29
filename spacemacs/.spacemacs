@@ -544,6 +544,9 @@ before packages are loaded."
   ;; (add-hook 'irony-mode-hook #'irony-eldoc)
 
   ;; (require 'flycheck-irony)
+  (add-hook 'c++-mode-hook 'flycheck-mode)
+  (add-hook 'c-mode-hook 'flycheck-mode)
+
   (eval-after-load 'flycheck
     '(add-hook 'flycheck-mode-hook #'flycheck-irony-setup))
   ;; (global-flycheck-mode)
