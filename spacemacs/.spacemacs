@@ -67,7 +67,7 @@ This function should only modify configuration layer settings."
    ;; To use a local version of a package, use the `:location' property:
    ;; '(your-package :location "~/path/to/your-package/")
    ;; Also include the dependencies as they will not be resolved automatically.
-   dotspacemacs-additional-packages '()
+   dotspacemacs-additional-packages '( company-irony company-irony-c-headers flycheck-irony )
 
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
@@ -482,6 +482,25 @@ If you are unsure, try setting them in `dotspacemacs/user-config' first."
   (setq-default default-buffer-file-coding-system 'utf-8-unix)
   (set-default-coding-systems 'utf-8-unix)
   (prefer-coding-system 'utf-8-unix)
+  ;; disable auto-indentation in paste
+  ;; (global-set-key "\C-j" 'newline)
+  ;; start directory
+  (setq emacs-start-directory default-directory)
+  )
+
+(defun dotspacemacs/user-load ()
+  "Library to load while dumping.
+This function is called only while dumping Spacemacs configuration. You can
+`require' or `load' the libraries of your choice that will be included in the
+dump."
+  )
+
+(defun dotspacemacs/user-config ()
+  "Configuration for user code:
+This function is called at the very end of Spacemacs startup, after layer
+configuration.
+Put your configuration code here, except for variables that should be set
+before packages are loaded."
   ;; switch horizontal window split to vertical and viceversa
   (defun toggle-window-split ()
     (interactive)
@@ -508,27 +527,26 @@ If you are unsure, try setting them in `dotspacemacs/user-config' first."
             (select-window first-win)
             (if this-win-2nd (other-window 1))))))
   (define-key ctl-x-4-map "s" 'toggle-window-split)
-  ;; disable auto-indentation in paste
-  ;; (global-set-key "\C-j" 'newline)
-  ;; start directory
-  (setq emacs-start-directory default-directory)
-  )
 
-(defun dotspacemacs/user-load ()
-  "Library to load while dumping.
-This function is called only while dumping Spacemacs configuration. You can
-`require' or `load' the libraries of your choice that will be included in the
-dump."
-  )
-
-(defun dotspacemacs/user-config ()
-  "Configuration for user code:
-This function is called at the very end of Spacemacs startup, after layer
-configuration.
-Put your configuration code here, except for variables that should be set
-before packages are loaded."
   ;; Make copy/paste work with the mouse in X11 terminals
   (xterm-mouse-mode -1)
+  ;; enable company-backend for irony
+  (spacemacs|add-company-backends
+    :backends company-irony-c-headers company-irony
+    :modes c-mode)
+  ;; irony goodies:
+  ;; (require 'irony)
+  (add-hook 'c++-mode-hook 'irony-mode)
+  (add-hook 'c-mode-hook 'irony-mode)
+  ;; (add-hook 'objc-mode-hook 'irony-mode)
+
+  (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
+  ;; (add-hook 'irony-mode-hook #'irony-eldoc)
+
+  ;; (require 'flycheck-irony)
+  (eval-after-load 'flycheck
+    '(add-hook 'flycheck-mode-hook #'flycheck-irony-setup))
+  ;; (global-flycheck-mode)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
