@@ -550,6 +550,11 @@ before packages are loaded."
   (eval-after-load 'flycheck
     '(add-hook 'flycheck-mode-hook #'flycheck-irony-setup))
   ;; (global-flycheck-mode)
+
+  ;; highlight-indentation
+  (add-hook 'c++-mode-hook 'highlight-indentation-mode)
+  (add-hook 'c-mode-hook 'highlight-indentation-mode)
+
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
