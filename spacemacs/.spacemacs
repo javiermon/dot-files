@@ -49,7 +49,7 @@ This function should only modify configuration layer settings."
      xclipboard
      emacs-lisp
      git
-     lsp
+     (lsp :variables lsp-enable-indentation nil)
      (c-c++ :variables c-c++-backend 'lsp-ccls)
      ;; (c-c++ :variables c-c++-backend 'lsp-clangd)
      ;; (c-c++ :variables c-c++-enable-clang-support t)
