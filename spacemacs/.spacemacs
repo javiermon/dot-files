@@ -32,7 +32,8 @@ This function should only modify configuration layer settings."
 
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
-   '(protobuf
+   '(rust
+     protobuf
      markdown
      python
      javascript
@@ -491,6 +492,8 @@ If you are unsure, try setting them in `dotspacemacs/user-config' first."
   ;; (global-set-key "\C-j" 'newline)
   ;; start directory
   (setq emacs-start-directory default-directory)
+  ;; dont display in shadow disabled code
+  (setq ccls-enable-skipped-ranges nil)
   )
 
 (defun dotspacemacs/user-load ()
