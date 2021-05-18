@@ -494,6 +494,8 @@ If you are unsure, try setting them in `dotspacemacs/user-config' first."
   (setq emacs-start-directory default-directory)
   ;; dont display in shadow disabled code
   (setq ccls-enable-skipped-ranges nil)
+  ;; higher file watcher threshold
+  (setq lsp-file-watch-threshold 2000)
   )
 
 (defun dotspacemacs/user-load ()
