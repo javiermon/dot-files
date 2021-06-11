@@ -51,6 +51,7 @@ This function should only modify configuration layer settings."
      emacs-lisp
      git
      (lsp :variables lsp-enable-indentation nil)
+     (lsp :variables lsp-enable-on-type-formatting nil)
      (c-c++ :variables c-c++-backend 'lsp-ccls)
      ;; (c-c++ :variables c-c++-backend 'lsp-clangd)
      ;; (c-c++ :variables c-c++-enable-clang-support t)
