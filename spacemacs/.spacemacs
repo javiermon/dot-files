@@ -43,7 +43,7 @@ This function should only modify configuration layer settings."
      ;; Uncomment some layer names and press `SPC f e R' (Vim style) or
      ;; `M-m f e R' (Emacs style) to install them.
      ;; ----------------------------------------------------------------
-     gtags
+     (gtags :variables ggtags-update-on-save nil)
      auto-completion
      ;; better-defaults
      helm
@@ -52,6 +52,7 @@ This function should only modify configuration layer settings."
      git
      (lsp :variables lsp-enable-indentation nil)
      (lsp :variables lsp-enable-on-type-formatting nil)
+     (lsp :variables lsp-file-watch-threshold 7000)
      (c-c++ :variables c-c++-backend 'lsp-ccls)
      ;; (c-c++ :variables c-c++-backend 'lsp-clangd)
      ;; (c-c++ :variables c-c++-enable-clang-support t)
