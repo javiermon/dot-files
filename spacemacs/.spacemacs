@@ -52,6 +52,7 @@ This function should only modify configuration layer settings."
      git
      (lsp :variables lsp-enable-indentation nil)
      (lsp :variables lsp-enable-on-type-formatting nil)
+     (lsp :variables lsp-lens-enable nil)
      (lsp :variables lsp-file-watch-threshold 7000)
      (c-c++ :variables c-c++-backend 'lsp-ccls)
      ;; (c-c++ :variables c-c++-backend 'lsp-clangd)
@@ -496,8 +497,10 @@ If you are unsure, try setting them in `dotspacemacs/user-config' first."
   (setq emacs-start-directory default-directory)
   ;; dont display in shadow disabled code
   (setq ccls-enable-skipped-ranges nil)
-  ;; higher file watcher threshold
-  (setq lsp-file-watch-threshold 2000)
+  ;; Increase the amount of data which Emacs reads from the process
+  (setq read-process-output-max (* 1024 1024)) ;; 1mb
+  ;; how often lsp-mode will refresh the highlights, lenses, links, etc while you type.
+  ;; (setq lsp-idle-delay 0.500)
   )
 
 (defun dotspacemacs/user-load ()
