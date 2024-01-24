@@ -1,8 +1,8 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/home/jmonteagudo/.oh-my-zsh
+export ZSH=/home/mon/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -58,7 +58,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(svn git tmux)
+plugins=(git tmux)
 
 # Load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
@@ -84,7 +84,7 @@ ZSH_THEME_SVN_PROMPT_CLEAN="%{$reset_color%}%{$fg_bold[blue]%}) "
 # else
 #   export EDITOR='mvim'
 # fi
-export EDITOR='emacs -nw'
+export EDITOR='/usr/bin/emacs-nox'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
